@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+    <meta charset="utf-8">
+    <title>P01 - Hamish and Co Artisanal Firewood Company Styleguide</title>
+
+    <link href="css/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Volkhov" rel="stylesheet">
+
+  </head>
+
+  <body>
+      <section>
+      <h1>P01 - Hamish and Co Artisanal Firewood Company Styleguide</h1>
+      <p>A template you can use to start building out your own style guides with.</p>
+      
+      <nav>
+          <p>On this page:</p>
+          <ul>
+              <li> <a href="#brand">Branding</a> </li>
+              <li> <a href="#interactive_elements">Interactive Elements</a> </li>
+              <li> <a href="#text_elements">Text Elements</a> </li>
+              <li> <a href="#combined_elements">Combined Elements</a> </li>
+          </ul>
+          
+          <p>Other pages:</p>
+          <ul>
+              <li><a href="User-flows.html">User-flows</a>
+              <li><a href="Style_guide.html">Style Guide</a>
+              <li><a href="Citations.html">Citations</a>
+          </ul>
+    </nav>
+    </section>
+
+
+    <!-- INTERACTIVE ELEMENTS SECTION // -->
+      <section>
+        <h2 id="brand">Brand Story</h2>
+        <p class="bodycopy"> Hamish and Co. is an artisanal firewood workshop that specializes in crafting the best firewood on the market for burning or display
+        <br>
+        Sourced and crafted locally in Vancouver, BC, Hamish and Co. sells a variety of firewood collections and packages to those seeking
+        <br>
+        the most fragrant, strong burning firewood in the market, connoisseurs of craft, local business supporters, and appreciators of beauty.
+        <br>
+        <br>
+        Besides their product, Hamish and Co. also prides itself in educating and sharing what the artisanal movement is all about through events
+        <br>
+        and workshops hosted in both their storefront and workshop.
+        <br>
+        <br>
+        As a brand, Hamish and Co. represents community and authenticity, dedication, and craftsmanship behind their product. They allow the product to speak for itself.
+        </p>
+        <img src="imgs/workshop.png" width="640px" height="360px" alt="">
+        <img src="imgs/hamish.png" width="640px" height="360px" alt="">
+        <img src="imgs/process.png" width="640px" height="360px" alt="">
+        <img src="imgs/firewood.png" width="640px" height="360px" alt="">
+        <img src="imgs/firewood2.png" width="640px" height="360px" alt="">
+      </section>
+      
+      
+      <section id="interactive_elements">
+      <!-- Default Button styling section -->
+      <section>
+        <h2>Navigation Button</h2>
+        <h3>CSS selector:</h3>
+        <p>.button-nav</p>
+        <h3>Sample code:</h3>
+        <code>&lt;a href="#" class="button-nav"&gt;Default Button&lt;/a&gt;</code>
+        <h3>Rendered element:</h3>
+        <a class="button-nav" href="#">Navigation Button</a>
+      </section>
+
+      <section>
+        <h2>In-text link</h2>
+        <h3>CSS selector:</h3>
+        <p>.intext-link</p>
+        <h3>Sample code:</h3>
+        <code>&lt;a href="#" class="intext-link"&gt;In-text link&lt;/a&gt;</code>
+        <h3>Rendered element:</h3>
+        <p>blah blah <a class="intext-link" href="#">In-text link</a> blah blah</p>
+      </section>
+
+      <section>
+        <h2>Submit/Reset Buttons</h2>
+        <h3>CSS selector:</h3>
+        <p>.button-main</p>
+        <h3>Sample code:</h3>
+        <code>&lt;a href="#" class="button-main"&gt;Default Button&lt;/a&gt;</code>
+        <h3>Rendered element:</h3>
+        <a class="button-main" href="#">SUBMIT</a>
+      </section>
+
+      <section>
+        <h2>Text Input Field</h2>
+        <h3>CSS selector:</h3>
+        <p>.text-form</p>
+        <h3>Sample code:</h3>
+        <code>&lt;form&gt; <br> &lt;label for="sample"&gt; Sample Form &lt;/label&gt;<br>&lt;input type="text" id="sample" name="sample" class=".textform&gt;<br> &lt;/form&gt;</code>
+        <h3>Rendered element:</h3>
+        <br>
+        <form>
+            <label for="sample">Sample Form</label>
+            <input type="text" id="sample" name="sample" class="textform">
+        </form>
+      </section>
+
+    </section>
+    <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+
+    <!-- TEXT ELEMENTS SECTION // -->
+    <section id="text_elements">
+
+      <section>
+        <h2>Headings</h2>
+        <h3>CSS selector:</h3>
+        <p>.h1</p>
+        <h3>Sample code:</h3>
+        <code>&lt;h1 class="h1"&gt;Sample Header&lt;/h1&gt;</code>
+        <h3>Rendered element:</h3>
+        <h1 class="h1">Sample Header</h1>
+        
+        <h3>CSS selector:</h3>
+        <p>.h2</p>
+        <h3>Sample code:</h3>
+        <code>&lt;h2 class="h2"&gt;Sample Header&lt;/h2&gt;</code>
+        <h3>Rendered element:</h3>
+        <h2 class="h2">Sample Header</h2>
+          
+        <h3>CSS selector:</h3>
+        <p>.h3</p>
+        <h3>Sample code:</h3>
+        <code>&lt;h3 class="h3"&gt;Sample Header&lt;/h3&gt;</code>
+        <h3>Rendered element:</h3>
+        <h3 class="h3">Sample Header</h3>
+      </section>
+
+      <section>
+        <h2>Paragraphs</h2>
+        <h3>CSS selector:</h3>
+        <p>.bodycopy</p>
+        <h3>Sample code:</h3>
+        <code>&lt;p class="bodycopy"&gt;Body Copy&lt;/p&gt;</code>
+        <h3>Rendered element:</h3>
+        <p class="bodycopy">Sample Paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dui nibh, molestie ultricies velit quis, commodo posuere enim. Nulla in nulla porttitor purus luctus sollicitudin finibus vel lectus. Fusce ac ante nulla. Nulla ullamcorper eros eu dolor aliquam, a bibendum enim dignissim. </p>
+      </section>
+
+      <section>
+        <h2>Bulleted Lists</h2>
+        <h3>CSS selector:</h3>
+        <p>.u-list</p>
+        <h3>Sample code:</h3>
+        <code>&lt;ul class="u-list" &gt; <br> &lt;li&gt; Default Button &lt;/li&gt; <br> &lt;/ul&gt;</code>
+        <h3>Rendered element:</h3>
+        <ul class="u-list">
+            <li> test </li>
+            <li> test </li>
+            <li> test </li>  
+        </ul>
+      </section>
+
+      <section>
+        <h2>Numbered Lists</h2>
+        <h3>CSS selector:</h3>
+        <p>.o-list</p>
+        <h3>Sample code:</h3>
+        <code>&lt;ol class="0-list" &gt; <br> &lt;li&gt; Default Button &lt;/li&gt; <br> &lt;/ol&gt;</code>
+        <h3>Rendered element:</h3>
+        <ol class="o-list">
+            <li> test </li>
+            <li> test </li>
+            <li> test </li>
+        </ol>
+      </section>
+
+    </section>
+    <!-- // TEXT ELEMENTS SECTION -->
+
+
+
+    <!-- COMBINED ELEMENTS SECTION // -->
+    <section id="combined_elements">
+
+      <section>
+        <h2>Main Navigation</h2>
+        <h3>CSS selector:</h3>
+        <p>.navbar</p>
+        <h3>Sample code:</h3>
+        <code>&lt;nav class="navbar&gt;<br>
+            &lt;a href="#" class="button-nav"&gt;Default Button&lt;/a&gt;<br>
+            &lt;div&gt;&lt;/div&gt;<br>
+            &lt;a href="#" class="button-nav"&gt;Default Button&lt;/a&gt;<br>
+            &lt;a href="#" class="button-nav"&gt;Default Button&lt;/a&gt;<br>
+            &lt;/nav&gt;
+            
+          
+        </code>
+        <h3>Rendered element:</h3>
+        <nav class="navbar">
+            <a class="button-nav" href="#">Home Link</a>
+            <div></div>
+            <a class="button-nav" href="#">Link A</a>
+            <a class="button-nav" href="#">Link B</a>
+            <a class="button-nav" href="#">Link C</a>
+        </nav>
+      </section>
+
+      <section>
+        <h2>Product Listing</h2>
+        <h3>CSS selector:</h3>
+        <p>.button-nav</p>
+        <h3>Sample code:</h3>
+        
+        <h3>Rendered element:</h3>
+        <div class="product-listing">
+            <img src="imgs/productimg.png"  alt="">
+            <h2> Product Name</h2>
+            <h3> Product details and price</h3>
+        </div>
+      </section>
+      
+      <section>
+        <h2>Website Grid Structure</h2>
+        
+        <nav class="navbar">
+            <a class="button-nav" href="#">Home Link</a>
+            <div></div>
+            <a class="button-nav" href="#">Link A</a>
+            <a class="button-nav" href="#">Link B</a>
+            <a class="button-nav" href="#">Link C</a>
+        </nav>
+        <div class="flexbox">
+            <div class="product-listing">
+                <img src="imgs/productimg.png"  alt="">
+                <h2> Product Name</h2>
+                <h3> Product details and price</h3>
+            </div> 
+            <div class="product-listing">
+                <img src="imgs/productimg.png" alt="">
+                <h2> Product Name</h2>
+                <h3> Product details and price</h3>
+            </div> 
+            <div class="product-listing">
+                <img src="imgs/productimg.png"  alt="">
+                <h2> Product Name</h2>
+                <h3> Product details and price</h3>
+            </div> 
+        </div>
+        <div class="flexbox">
+            <div class="product-listing">
+                <img src="imgs/productimg.png"  alt="">
+                <h2> Product Name</h2>
+                <h3> Product details and price</h3>
+            </div> 
+            <div class="product-listing">
+                <img src="imgs/productimg.png"  alt="">
+                <h2> Product Name</h2>
+                <h3> Product details and price</h3>
+            </div> 
+            <div class="product-listing">
+                <img src="imgs/productimg.png"  alt="">
+                <h2> Product Name</h2>
+                <h3> Product details and price</h3>
+            </div> 
+        </div>
+      
+          
+      </section>
+      
+      <section> 
+        <h2>Website Colour Swatch</h2>
+        <div style="background-color: #64825e; border-width:1px;border-style:solid; width: 30%">
+            <p> Faded Moss Green #64825e - Headers, Footers, Banners, Primary brand "color"</p>
+        </div>
+        <div style="background-color: #F5E7BA; border-width:1px;border-style:solid; width: 30%">
+            <p> Sun Faded Yellow #F5E7BA - to signify interactions/buttons</p>
+        </div>
+        <div style="background-color: #191919; border-width:1px;border-style:solid; width: 30%">
+            <p style="color: white"> Charcoal Black #191919 - heading and logo</p>
+        </div>
+        <div style="background-color: #4D4D4D; border-width:1px;border-style:solid; width: 30%">
+            <p style="color: white"> Smoke Grey #4D4D4D - body copy</p>
+        </div>
+        <div style="background-color:#F0F0F0; border-width:1px;border-style:solid; width: 30%">
+            <p> Vintage White #F0F0F0 - main page background</p>
+        </div>
+      </section>      
+
+    </section>
+    <!-- // COMBINED ELEMENTS SECTION -->
+
+
+
+
+  </body>
+</html>
