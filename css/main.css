@@ -1,11 +1,14 @@
 /*
-  STYLE GUIDE STYLING 
-  Default styling for the style guide 
+  STYLE GUIDE STYLING
+  Default styling for the style guide
 */
+
+/*ARON CHEN WAS HERE*/
+
 body {
     font-family: sans-serif;
     padding: 2rem;
-    background-color: #F0F0F0; 
+    background-color: #F0F0F0;
 }
 
 section:not([id]) {
@@ -64,7 +67,7 @@ cite {
 }
 
 
-/* 
+/*
   INTERACTIVE ELEMENTS -------------------
 */
 
@@ -122,7 +125,7 @@ cite {
 }
 
 
-/* 
+/*
   TEXT ELEMENTS -------------------
 */
 
@@ -166,7 +169,7 @@ cite {
     margin: .5em 1em;
     color: #4D4D4D;
     list-style-type: lower-roman;
-    font-family: 'Open Sans', sans-serif; 
+    font-family: 'Open Sans', sans-serif;
 }
 
 .o-list li{
@@ -174,7 +177,7 @@ cite {
 }
 
 
-/* 
+/*
   COMBINED ELEMENTS -------------------
 */
 *, *::after, *::before {
