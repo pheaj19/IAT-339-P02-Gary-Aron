@@ -183,6 +183,16 @@ body {
     flex-wrap: wrap;
 }
 
+/* Container for singular item on Product page*/
+.flexbox-container{
+
+}
+
+/* Item for Container for singular item on Product page*/
+.flexbox-item{
+  
+}
+
 .herobanner{
     display: -webkit-flex;
     display: -ms-flex;
