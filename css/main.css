@@ -3,69 +3,6 @@
   Default styling for the style guide
 */
 
-/*ARON CHEN WAS HERE*/
-
-body {
-    font-family: sans-serif;
-    padding: 2rem;
-    background-color: #F0F0F0;
-}
-
-section:not([id]) {
-    margin: 1em 0;
-    padding: 1em 0;
-    border-bottom: 0.15em solid #333;
-}
-
-section h2 {
-    margin-top: 0;
-    margin-bottom: 0.5em;
-}
-
-section h3 {
-    margin-bottom: 0;
-}
-
-section p {
-    margin-top: 0;
-}
-
-nav {
-    margin-bottom: 1em;
-    padding-bottom: 1em;
-}
-
-nav a:hover, nav a:focus {
-    text-decoration: none;
-}
-
-section code {
-    background-color: #EEE;
-    padding: 0.5em 0.75em;
-    display: block;
-}
-
-ul.citations {
-    margin-left: 0.25em;
-    padding-left: 0.25em;
-}
-
-ul.citations li {
-    list-style-type: none;
-    margin-left: 0;
-    padding-left: 0;
-    padding-bottom: 1em;
-}
-
-ul.citations li strong {
-    font-weight: normal;
-    font-style: italic;
-}
-
-cite {
-    font-style: normal;
-}
-
 
 /*
   INTERACTIVE ELEMENTS -------------------
@@ -146,11 +83,18 @@ cite {
     font-size: 1.5em;
 }
 
-.bodycopy{
+/*For body copy*/
+body {
+  margin: 10px 0;
+  color: #4D4D4D;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*.bodycopy{
     margin: 10px 0;
     color: #4D4D4D;
     font-family: 'Open Sans', sans-serif;
-}
+}*/
 
 .u-list{
     padding: 1em;
@@ -221,9 +165,12 @@ cite {
 }
 
 .footer{
-    /* PLEASE ADD */
+    display: flex;
+    width: 100%;
+    background-color: #64825e;
 }
 
+/* Container for product-listing */
 .flexbox{
     display: -webkit-flex;
     display: -ms-flex;
@@ -245,4 +192,9 @@ cite {
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+/* For product page*/
+.image-gallery{
+    display:flex;
 }
