@@ -230,6 +230,12 @@ section{
   padding: 1em;
 }
 
+.flexbox-item-confirmation{
+  flex-grow: 1;
+  padding: 1em;
+  float:right;
+}
+
 /*checkout*/
 .checkout{
   float: right;
