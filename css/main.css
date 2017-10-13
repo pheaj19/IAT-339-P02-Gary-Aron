@@ -54,11 +54,22 @@
     width: 100%;
     padding: .5em .3em;
     margin: .5em 0;
-    border-style: none;
+    border-style: hidden hidden solid hidden;
     background-color: #FFFFFF;
     border-radius: 5px;
     color: #4D4D4D;
     font-family: 'Open Sans', sans-serif;
+}
+
+.button-default{
+  padding: 0.5em 0.5em;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  text-decoration: none;
+}
+
+.button-default:hover, .button-default:selction{
+  background-color: #FFFFFF; //No effect so far
 }
 
 
@@ -128,6 +139,11 @@ body {
 	box-sizing: border-box;
 }
 
+section{
+  margin: 3% 0 10% 0;
+}
+
+
 .navbar{
     display: flex;
     width: 100%;
@@ -168,6 +184,7 @@ body {
     display: flex;
     width: 100%;
     background-color: #64825e;
+    text-align: center;
 }
 
 /* Container for product-listing */
@@ -188,6 +205,7 @@ body {
       font-size: 1em;
     }
 }
+
 
 .content-container{
   width: 70%;
@@ -233,4 +251,15 @@ body {
 /* For product page*/
 .image-gallery{
     display:flex;
+    width:50%;
+}
+
+.image-gallery img{
+  width:35%;
+  height:35%;
+  margin: 0% 2% 0 2%;
+}
+
+img{
+  margin: 1% 1% 1% 1%;
 }
