@@ -66,21 +66,21 @@
   TEXT ELEMENTS -------------------
 */
 
-.h1{
+h1{
     margin: .5em 0;
     font-family: 'Volkhov', sans-serif;
     font-size: 2em;
 }
 
-.h2{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.7em;
+h2{
+    font-family: 'Volkhov', sans-serif;
+    font-size: 1.3em;
 }
 
-.h3{
+h3{
     margin: .5em 0;
-    font-family: 'Volkhov', sans-serif;
-    font-size: 1.5em;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1em;
 }
 
 /*For body copy*/
@@ -183,14 +183,40 @@ body {
     flex-wrap: wrap;
 }
 
+@media (min-width: 34.4em) {
+    .button-nav{
+      font-size: 1em;
+    }
+}
+
+.content-container{
+  width: 70%;
+  margin: 5% 15% 5% 15%
+}
+
+.collection-des-container{
+  padding-left: 6%;
+  padding-right: 6%;
+  margin: 7% 0 7% 0
+}
+
 /* Container for singular item on Product page*/
 .flexbox-container{
-
+  display: flex;
+  margin: 3% 0;
 }
 
 /* Item for Container for singular item on Product page*/
 .flexbox-item{
-  
+  flex-grow: 1;
+  padding: 1em;
+}
+
+/*checkout*/
+.checkout{
+  float: right;
+  margin: 2% 0 7% 0;
+  text-align: right;
 }
 
 .herobanner{
