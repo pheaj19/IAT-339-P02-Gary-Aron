@@ -200,13 +200,6 @@ section{
     flex-wrap: wrap;
 }
 
-@media (min-width: 34.4em) {
-    .button-nav{
-      font-size: 1em;
-    }
-}
-
-
 .content-container{
   width: 70%;
   margin: 5% 15% 5% 15%
@@ -254,18 +247,13 @@ section{
     text-align: center;
 }
 
-/* For product page*/
-.image-gallery{
-    display:flex;
-    width:50%;
+.image-gallery img{
+  width:20%;
+  height:20%;
+  margin: -5% 3.5% 0% 3.5%;
 }
 
-.image-gallery img{
-  width:35%;
-  height:35%;
-  margin: 0% 2% 0 2%;
-}
 
 img{
-  margin: 1% 1% 1% 1%;
+  margin: 0 0 0 0;
 }

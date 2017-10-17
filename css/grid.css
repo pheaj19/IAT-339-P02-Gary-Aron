@@ -1,0 +1,50 @@
+
+@media (min-width: 34.4em) {
+    .button-nav{
+      font-size: 1em;
+    }
+}
+
+/*for all the content within the body (navbar, herobanner, footer)*/
+.body-container{
+  width: 70%;
+  margin: 5% 15% 5% 15%
+}
+
+.collection-des-container{
+  padding-left: 6%;
+  padding-right: 6%;
+  margin: 7% 0 7% 0
+}
+
+/*Container for default div*/
+.default-container{
+  display: flex;
+  margin: 3% 0;
+}
+
+/*Item for deafult div*/
+.default-item{
+  flex-grow: 1;
+  padding: 1em;
+}
+
+/*Position confirmation div*/
+.flexbox-item-confirmation{
+  flex-grow: 1;
+  padding: 1em;
+  float:right;
+}
+
+/*Position for Checkout div*/
+.checkout{
+  float: right;
+  margin: 2% 0 7% 0;
+  text-align: right;
+}
+
+/*For product page*/
+.image-gallery{
+    display:flex;
+    width:50%;
+}
