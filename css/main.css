@@ -61,7 +61,7 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-.button-default{
+/*.button-default{
   padding: 0.5em 0.5em;
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
@@ -71,7 +71,7 @@
 .button-default:hover, .button-default:selction{
   background-color: #FFFFFF; //No effect so far
 }
-
+*/
 
 /*
   TEXT ELEMENTS -------------------
@@ -161,6 +161,7 @@ section{
     padding: .2em;
     margin: 1em;
     text-align: center;
+    text-decoration: none;
 }
 
 .product-listing h2{
@@ -173,6 +174,10 @@ section{
 .product-listing img{
     width: 100%;
     heighT: auto;
+}
+
+.product-listing:visited{
+    color: #191919;
 }
 
 .footer{
