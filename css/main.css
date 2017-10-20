@@ -149,6 +149,7 @@ section{
     width: 100%;
     background-color: #64825e;
     padding: 0em 1em;
+    align-items: center;
 }
 
 .navbar div{
@@ -245,6 +246,8 @@ section{
     justify-content: center;
     align-items: center;
     text-align: center;
+    background-image: url("../imgs/herobanner.jpg");
+    background-color: #FFFFFF;
 }
 
 .image-gallery img{
@@ -256,4 +259,9 @@ section{
 
 img{
   margin: 0 0 0 0;
+}
+
+.img-thumbnail{
+    height: 30px;
+    width: 30px;
 }
