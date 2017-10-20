@@ -28,34 +28,45 @@
             <h2>Personal Information</h2>
             <section>
                 <form>
-                    <label for="sample">Name</label>
-                    <input type="text" id="sample" name="sample" class="textform">
-                    <label for="sample3">Shipping Address</label>
-                    <input type="text" id="sample3" name="sample" class="textform">
-                    <label for="sample3">Billing Address</label>
-                    <input type="text" id="sample4" name="sample" class="textform">
-                    <label for="sample3">Email</label>
-                    <input type="text" id="sample5" name="sample" class="textform">
-                    <label for="sample3">Phone Number</label>
-                    <input type="text" id="sample6" name="sample" class="textform">
+                    <label for="form-name">Name</label>
+                    <input type="text" id="form-name" name="Name" class="textform">
+                    <label for="form-email">Email</label>
+                    <input type="text" id="form-email" name="Email" class="textform">
+                    <label for="form-phone">Phone Number</label>
+                    <input type="text" id="form-phone" name="Phone" class="textform">
+                    <label for="form-shipping">Shipping Information</label>
+                    <input type="text" id="form-shipping" name="shipping-address" class="textform" placeholder="Address">
+                    <input type="text" name="shipping-city" class="textform" placeholder="City">
+                    <input type="text" name="shipping-province" class="textform" placeholder="Province">
+                    <input type="text" name="shipping-country" class="textform" placeholder="Country">
+                    <input type="text" name="shipping-postal" class="textform" placeholder="Postal Code">
+                    
+                    <label for="form-billing">Billing Information</label>
+                    <br>
+                    <input type="checkbox" name="same-shipping" value="same-shipping"> Same as Shipping Address <br>
+                    <input type="text" id="form-billing" name="billing-address" class="textform" placeholder="Address">
+                    <input type="text" name="billing-city" class="textform" placeholder="City">
+                    <input type="text" name="billing-province" class="textform" placeholder="Province">
+                    <input type="text" name="billing-country" class="textform" placeholder="Country">
+                    <input type="text" name="billing-Postal Code" class="textform" placeholder="Postal Code">
                 </form>
             </section>
         
             <h2>Credit Card Information</h2>
             <section>
                 <form>
-                    <label for="sample2">Card Holder Name</label>
-                    <input type="text" id="sample8" name="sample" class="textform">
-                    <label for="sample3">Card Number</label>
-                    <input type="text" id="sample9" name="sample" class="textform">
-                    <label for="sample3">CVV Number</label>
-                    <input type="text" id="sample10" name="sample" class="textform">
-                    <label for="sample11">Expiry Date</label>
-                    <input type="text" id="sample11" name="sample" class="textform">
+                    <label for="card-name">Card Holder Name</label>
+                    <input type="text" id="card-name" name="card-name" class="textform">
+                    <label for="card-number">Card Number</label>
+                    <input type="text" id="card-number" name="card-number" class="textform">
+                    <label for="card-security">Security Number</label>
+                    <input type="text" id="card-security" name="card-security" class="textform">
+                    <label for="card-expire">Expiry Date</label>
+                    <input type="text" id="card-expire" name="card-expire" class="textform" placeholder="MM/YY">
                 </form>
             </section>
 
-            <a class="button-main"> Confirm </button>
+            <a class="button-main" href="confirmation.html"> Confirm </button>
     
         </div>
 
