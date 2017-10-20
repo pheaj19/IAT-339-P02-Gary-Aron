@@ -45,6 +45,8 @@
 
 /*For product page*/
 .image-gallery{
+    margin: 0 auto;
     display:flex;
     width:50%;
+    justify-content: center;
 }
