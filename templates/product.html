@@ -3,7 +3,7 @@
 
     <head>
 
-    <html lang="en">   
+    <html lang="en">
     <meta charset="utf-8">
     <title>Product Page Template</title>
     <link href="../css/main.css" rel="stylesheet">
@@ -11,20 +11,27 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Volkhov" rel="stylesheet">
 
     </head>
-        
+
     <body>
 
-        <nav class="navbar" id="navbar">
+        <nav class="navbar grid-row" id="navbar">
+          <div class="grid-col-1of4-home">
             <img src="../imgs/logo.png" alt="" class="img-thumbnail">
-            <a class="button-nav" href="homepage.html#navbar">Home Link</a>
-            <div></div>
-            <a class="button-nav" href="about.html">About</a>
-            <a class="button-nav" href="blog.html">Blog</a>
-            <a class="button-nav" href="cart.html">Cart</a>
+            <a class="button-nav-home" href="#">Home Link</a>
+          </div>
+          <div class="grid-col-1of4-nav">
+            <a class="button-nav" href="#">Link A</a>
+          </div>
+          <div class="grid-col-1of4-nav">
+            <a class="button-nav" href="#">Link B</a>
+          </div>
+          <div class="grid-col-1of4-nav">
+            <a class="button-nav" href="#">Link C</a>
+          </div>
         </nav>
 
         <div class="body-container">
-            
+
             <div class="default-container">
                 <div class="default-item">
                     <img src="../imgs/firewood2.png" width="500px" height="500px">
@@ -34,15 +41,15 @@
                         <img src="../imgs/firewood5.png">
                     </div>
                 </div>
-                
+
                 <div class="default-item">
                     <h2> Maple Daydream </h2>
                     <p> <strong>From $189</strong> </p>
-                    <p class="bodycopy">Sourced from the pristine mountains of northern Quebec, this firewood burns warm and cozy like a hot chocolate on a cold winter's night. 
+                    <p class="bodycopy">Sourced from the pristine mountains of northern Quebec, this firewood burns warm and cozy like a hot chocolate on a cold winter's night.
                     <br>
                     <br>
                     Dried and aged for 3 years. Infused with gingseng, maple syrup, and hickory, this piece will be fragrant from start to finish. </p>
-                    
+
                     <form action="/action_page.php">
                         <label for="dropdown">Quantity (in bundles)</label>
                         <select id="dropdown" name="Quantity">
@@ -53,7 +60,7 @@
                       </select>
                     </form>
                     <a class="button-main" href="cart.html"> ADD TO CART </a>
-                
+
                 </div>
 
             </div>
