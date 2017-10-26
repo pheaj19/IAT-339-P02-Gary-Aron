@@ -14,44 +14,76 @@
 
     <body>
 
-        <nav class="navbar" id="navbar">
-          <img src="../imgs/logo.png" alt="" class="img-thumbnail">
-          <a class="button-nav" href="homepage.html#navbar">Home Link</a>
-          <div></div>
-          <a class="button-nav" href="about.html">About</a>
-          <a class="button-nav" href="blog.html">Blog</a>
-          <a class="button-nav" href="cart.html">Cart</a>
-        </nav>
+      <nav class="navbar grid-row" id="navbar">
+          <div class="grid-col-1of4-home">
+            <!--<img src="../imgs/logo.png" alt="" class="img-thumbnail"/>-->
+            <a class="button-nav" href="homepage.html#navbar">Home</a>
+          </div>
+          <div class="grid-col-1of4-nav">
+            <a class="button-nav" href="about.html">About</a>
+          </div>
+          <div class="grid-col-1of4-nav">
+            <a class="button-nav" href="blog.html">Blog</a>
+          </div>
+          <div class="grid-col-1of4-nav">
+            <a class="button-nav" href="cart.html">Cart</a>
+          </div>
+      </nav>
 
 
 
         <div class="body-container">
-            <img src="../imgs/hamish.png" class=img-full>
-            <p class="bodycopy">Hi my name is Hamish Dupree, and I am the founder and craftsman behind North America's only, premium, artisanally-crafted firewood. I grew up around wood growing up - wood burning stove, firewood, fireplaces. It's in my blood.
-            <br>
-            <br>
-            Started in 2010, Hamish and Co was established after I realizing that firewood has lost all of it's authenticity. My mission was to bring it back. That's why I only source the best, local firewood available and pour my heart and soul into each piece, while combining traditional and modern techniques. Every log tell's a story and it is my job to make it visible to you - no matter how long it takes.</p>
-            <div class="image-gallery">
-                <img src="../imgs/workshop.png">
-                <img src="../imgs/process.png">
-                <img src="../imgs/firewood.png">
+            <div class="grid-row">
+              <div class="image-full">
+                <img src="../imgs/hamish.png" width="100%" height="auto">
+              </div>
+            </div>
+            <div class="grid-row">
+              <p class="bodycopy">Hi my name is Hamish Dupree, and I am the founder and craftsman behind North America's only, premium, artisanally-crafted firewood. I grew up around wood growing up - wood burning stove, firewood, fireplaces. It's in my blood.
+                <br>
+                <br>
+                Started in 2010, Hamish and Co was established after I realizing that firewood has lost all of it's authenticity. My mission was to bring it back. That's why I only source the best, local firewood available and pour my heart and soul into each piece, while combining traditional and modern techniques. Every log tell's a story and it is my job to make it visible to you - no matter how long it takes.</p>
+            </div>
+            <div class="grid-row">
+              <div class="grid-col-1of3-gallery">
+                <img class="image-gallery gallery-notfirst" src="../imgs/workshop.png">
+              </div>
+              <div class="grid-col-1of3-gallery">
+                <img class="image-gallery gallery-notfirst" src="../imgs/process.png">
+              </div>
+              <div class="grid-col-1of3-gallery">
+                <img class="image-gallery gallery-notfirst" src="../imgs/firewood.png">
+              </div>
             </div>
         </div>
 
         <footer class="footer">
-            <a class="button-nav" href="homepage.html#navbar">Home</a>
-            <a class="button-nav" href="about.html">About</a>
-            <a class="button-nav" href="blog.html">Blog</a>
-            <a class="button-nav" href="../Citations.html">Citations</a>
-            <a class="button-nav" href="../Style_guide.html">Styleguide</a>
-            <a class="button-nav" href="https://github.com/pheaj19/IAT-339-P02-Gary-Aron">Github Repo</a>
-            <p> <strong>Hamish and Co Artisanal Firewood</strong>
-                <br>
-                1234 Fake St, Vancouver, BC, Canada
-                <br>
-                604-555-1234
-                <br>
-            </p>
+            <div class="grid-row">
+            <div class="grid-col-1of6-footer">
+                <a class="button-nav" href="homepage.html#navbar">Home</a>
+            </div>
+            <div class="grid-col-1of6-footer">
+                <a class="button-nav" href="about.html">About</a>
+            </div>
+            <div class="grid-col-1of6-footer">
+                <a class="button-nav" href="blog.html">Blog</a>
+            </div>
+            <div class="grid-col-1of6-footer">
+                <a class="button-nav" href="../Citations.html">Citations</a>
+            </div>
+            <div class="grid-col-1of6-footer">
+                <a class="button-nav" href="../Style_guide.html">Styleguide</a>
+            </div>
+            <div class="grid-col-1of6-footer">
+                <a class="button-nav" href="https://github.com/pheaj19/IAT-339-P02-Gary-Aron">Github Repo</a>
+            </div>
+          </div>
+          <div class="grid-row grid-col-1of1">
+            <h3>Hamish and Co Artisanal Firewood</h3>
+          </div>
+          <div class="grid-row grid-col-1of1">
+            1234 Fake St, Vancouver, BC, Canada | 604-555-1234
+          </div>
         </footer>
 
     </body>

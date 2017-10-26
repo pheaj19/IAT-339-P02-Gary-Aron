@@ -16,8 +16,8 @@
 
         <nav class="navbar grid-row" id="navbar">
           <div class="grid-col-1of4-home">
-            <img src="../imgs/logo.png" alt="" class="img-thumbnail">
-            <a class="button-nav-home" href="#">Home Link</a>
+            <!--<img src="../imgs/logo.png" alt="" class="img-thumbnail">-->
+            <a class="button-nav-home" href="#">Home</a>
           </div>
           <div class="grid-col-1of4-nav">
             <a class="button-nav" href="#">Link A</a>
@@ -32,17 +32,25 @@
 
         <div class="body-container">
 
-            <div class="default-container">
-                <div class="default-item">
-                    <img src="../imgs/firewood2.png" width="500px" height="500px">
-                    <div class="image-gallery">
-                        <img src="../imgs/firewood2.png">
-                        <img src="../imgs/firewood4.png">
-                        <img src="../imgs/firewood5.png">
+            <div class="grid-row">
+                <div class="grid-col-1of2">
+                  <div class="grid-row">
+                    <img src="../imgs/firewood2.png" width="100%" height="auto">
+                  </div>
+                    <div class="grid-row">
+                      <div class="grid-col-1of3-gallery">
+                        <img class="image-gallery" src="../imgs/firewood2.png">
+                      </div>
+                      <div class="grid-col-1of3-gallery">
+                        <img class="image-gallery gallery-notfirst" src="../imgs/firewood4.png">
+                      </div>
+                      <div class="grid-col-1of3-gallery">
+                        <img class="image-gallery gallery-notfirst" src="../imgs/firewood5.png">
+                      </div>
                     </div>
                 </div>
 
-                <div class="default-item">
+                <div class="grid-col-1of2">
                     <h2> Maple Daydream </h2>
                     <p> <strong>From $189</strong> </p>
                     <p class="bodycopy">Sourced from the pristine mountains of northern Quebec, this firewood burns warm and cozy like a hot chocolate on a cold winter's night.
@@ -68,19 +76,32 @@
 
 
         <footer class="footer">
-            <a class="button-nav" href="homepage.html#navbar">Home</a>
-            <a class="button-nav" href="about.html">About</a>
-            <a class="button-nav" href="blog.html">Blog</a>
-            <a class="button-nav" href="../Citations.html">Citations</a>
-            <a class="button-nav" href="../Style_guide.html">Styleguide</a>
-            <a class="button-nav" href="https://github.com/pheaj19/IAT-339-P02-Gary-Aron">Github Repo</a>
-            <p> <strong>Hamish and Co Artisanal Firewood</strong>
-                <br>
-                1234 Fake St, Vancouver, BC, Canada
-                <br>
-                604-555-1234
-                <br>
-            </p>
+            <div class="grid-row">
+            <div class="grid-col-1of6-footer">
+                <a class="button-nav" href="homepage.html#navbar">Home</a>
+            </div>
+            <div class="grid-col-1of6-footer">
+                <a class="button-nav" href="about.html">About</a>
+            </div>
+            <div class="grid-col-1of6-footer">
+                <a class="button-nav" href="blog.html">Blog</a>
+            </div>
+            <div class="grid-col-1of6-footer">
+                <a class="button-nav" href="../Citations.html">Citations</a>
+            </div>
+            <div class="grid-col-1of6-footer">
+                <a class="button-nav" href="../Style_guide.html">Styleguide</a>
+            </div>
+            <div class="grid-col-1of6-footer">
+                <a class="button-nav" href="https://github.com/pheaj19/IAT-339-P02-Gary-Aron">Github Repo</a>
+            </div>
+          </div>
+          <div class="grid-row grid-col-1of1">
+            <h3>Hamish and Co Artisanal Firewood</h3>
+          </div>
+          <div class="grid-row grid-col-1of1">
+            1234 Fake St, Vancouver, BC, Canada | 604-555-1234
+          </div>
         </footer>
 
     </body>

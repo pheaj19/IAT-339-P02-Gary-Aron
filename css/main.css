@@ -11,7 +11,7 @@
 /* Styling for the navigation button */
 .button-nav {
     display: flex;
-    color: #191919;
+    color: #F5E7BA;
     background-color: #64825e;
     text-decoration: none;
     -webkit-transition: background-color 0.5s ease-out;
@@ -38,10 +38,11 @@
 }
 
 .button-nav:hover, .button-nav:focus {
-    color: #F5E7BA;
+    color: #191919;
 }
 
 .button-main {
+    margin: 5% 1em;
     display: inline-block;
     padding: 0.5em 1.5em;
     background-color: #F0F0F0;
@@ -69,7 +70,7 @@
 .textform{
     width: 100%;
     padding: .5em .3em;
-    margin: .5em 0;
+    margin: 1em 0;
     border-style: hidden hidden solid hidden;
     background-color: #FFFFFF;
     border-radius: 5px;
@@ -94,7 +95,7 @@
 */
 
 h1{
-    margin: .5em 0;
+    margin: .5em 0.5em;
     font-family: 'Volkhov', sans-serif;
     font-size: 2em;
 }
@@ -102,10 +103,11 @@ h1{
 h2{
     font-family: 'Volkhov', sans-serif;
     font-size: 1.3em;
+    margin: 1.2em 0.7em;
 }
 
 h3{
-    margin: .5em 0;
+    margin: .5em 1em;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.1em;
 }
@@ -114,6 +116,14 @@ body {
   margin: 0px 0px 0px 0px;
   color: #4D4D4D;
   font-family: 'Open Sans', sans-serif;
+}
+
+p, form{
+  margin:0.5em 1em;
+}
+
+label, input{
+  margin:4em 0;
 }
 
 .u-list{
@@ -144,65 +154,43 @@ body {
 /*
   COMBINED ELEMENTS -------------------
 */
-*, *::after, *::before {
+*, *::after, *::before {}
 
 section{
   margin: 3% 0 10% 0;
 }
 
-
 .navbar{
-    display: inline-block;
-    width: 100%;
     background-color: #64825e;
-    padding: 0em 1em;
-    align-items: center;
+    margin: 0 0 3% 0;
+    color:#ffffff;
 }
 
-
-.navbar a{
+/*.navbar a{
     margin: .5em .8em;
-}
+}*/
 
 .product-listing{
     display:flex;
     flex-direction: column;
-    width: 20%;
-    padding: .2em;
-    margin: 1em;
+    width: 100%;
     text-align: center;
     text-decoration: none;
 }
 
 .product-listing h2{
-    margin: 1em 0 .3em 0;
+    text-decoration:none;
 }
 .product-listing h3{
-    margin: .3em 0;
-}
-
-.product-listing img{
-    width: 100%;
-    heighT: auto;
+    text-decoration:none;
 }
 
 .product-listing:visited{
     color: #191919;
+    text-decoration:none;
 }
 
-.footer{
-    display: flex;
-    width: 100%;
-    background-color: #64825e;
-    padding: .5em 0em;
-    align-items: flex-start;
-    justify-content: center;
-}
 
-.footer p{
-    margin: 0;
-    padding: .5em .75em;
-}
 
 /* Container for product-listing */
 .flexbox{
@@ -217,9 +205,8 @@ section{
     flex-wrap: wrap;
 }
 
-.content-container{
-  width: 70%;
-  margin: 5% 15% 5% 15%
+.body-container{
+  background-color: #ffffff;
 }
 
 .collection-des-container{
@@ -258,13 +245,13 @@ section{
     display: -ms-flex;
     display:flex;
     height: 100vh;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     background-image: url("../imgs/herobanner.jpg");
     background-color: #FFFFFF;
 }
+
 
 .footer p{
   text-align:center;
@@ -274,17 +261,23 @@ section{
 }
 
 .image-gallery img{
-  width:25%;
-  height:25%;
-  margin: 3.5% 3.5% 0% 3.5%;
+  margin: 0 0;
 }
 
 
 img{
-  margin: 0 0 0 0;
+  margin: 0 0;
 }
 
 .img-thumbnail{
-  width:5%;
-  height:35px;
+  max-width:100%;
+  max-height:100%;
+  width:auto;
+  height:auto;
+}
+
+.image-full img{
+  width: 100%;
+  height: auto;
+  margin: 10% 0;
 }
