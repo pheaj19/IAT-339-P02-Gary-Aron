@@ -95,7 +95,7 @@
 */
 
 h1{
-    margin: .5em 1em;
+    margin: .5em 0.5em;
     font-family: 'Volkhov', sans-serif;
     font-size: 2em;
 }
@@ -124,7 +124,7 @@ p, form{
 
 label, input{
   margin:4em 0;
-} 
+}
 
 .u-list{
     padding: 1em;
@@ -154,40 +154,33 @@ label, input{
 /*
   COMBINED ELEMENTS -------------------
 */
-*, *::after, *::before {
+*, *::after, *::before {}
 
 section{
   margin: 3% 0 10% 0;
 }
 
 .navbar{
-    display: inline-block;
     background-color: #64825e;
-    padding: 0em 3em;
-    align-items: center;
+    margin: 3% 0;
 }
 
-
-.navbar a{
+/*.navbar a{
     margin: .5em .8em;
-}
+}*/
 
 .product-listing{
     display:flex;
     flex-direction: column;
-    width: 20%;
-    padding: .2em;
-    margin: 1em;
+    width: 100%;
     text-align: center;
     text-decoration: none;
 }
 
 .product-listing h2{
-    margin: 1em 0 .3em 0;
     text-decoration:none;
 }
 .product-listing h3{
-    margin: .3em 0;
     text-decoration:none;
 }
 
@@ -196,20 +189,7 @@ section{
     text-decoration:none;
 }
 
-.footer{
-    display: flex;
-    width: 100%;
-    background-color: #64825e;
-    padding: .5em 0em;
-    align-items: flex-start;
-    justify-content: center;
-    position:absolute;
-}
 
-.footer p{
-    margin: 0;
-    padding: .5em .75em;
-}
 
 /* Container for product-listing */
 .flexbox{
@@ -264,7 +244,6 @@ section{
     display: -ms-flex;
     display:flex;
     height: 100vh;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -291,7 +270,7 @@ img{
 
 .img-thumbnail{
   max-width:100%;
-  max-height: 100%;
+  max-height:100%;
   width:auto;
   height:auto;
 }

@@ -8,8 +8,12 @@
 	padding: 0;
 }
 
-.grid-col-1of1 .grid-col-1of2, .grid-col-1of4, .grid-col-1of3, .grid-col-2of3, .grid-col-1of4-nav, .grid-col-1of4-home, .grid-col-1of6-footer{
+.grid-col-1of1 .grid-col-1of2, .grid-col-1of4, .grid-col-1of3, .grid-col-2of3, .grid-col-1of4-nav,.grid-col-1of4-home, .grid-col-1of6-footer{
 	width: 100%;
+}
+
+.grid-col-1of4-space{
+  width:0%;
 }
 
 .grid-col-1of1{
@@ -191,7 +195,16 @@
   }
 
   .grid-col-1of4-home{
-    width:15%;
+    width:10%;
+    text-align:left;
+  }
+
+  .grid-col-1of6-space{
+    width:55%
+  }
+
+  .grid-col-1of6-logo{
+    width:5%;
   }
 
   .grid-col-1of6-footer{
