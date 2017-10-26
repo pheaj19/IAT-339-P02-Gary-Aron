@@ -11,7 +11,7 @@
 /* Styling for the navigation button */
 .button-nav {
     display: flex;
-    color: #191919;
+    color: #F5E7BA;
     background-color: #64825e;
     text-decoration: none;
     -webkit-transition: background-color 0.5s ease-out;
@@ -38,7 +38,7 @@
 }
 
 .button-nav:hover, .button-nav:focus {
-    color: #F5E7BA;
+    color: #191919;
 }
 
 .button-main {
@@ -162,7 +162,8 @@ section{
 
 .navbar{
     background-color: #64825e;
-    margin: 3% 0;
+    margin: 0 0 3% 0;
+    color:#ffffff;
 }
 
 /*.navbar a{
