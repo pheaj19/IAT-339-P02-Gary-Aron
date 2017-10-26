@@ -14,22 +14,34 @@
 
     <body>
 
-          <nav class="navbar" id="navbar">
-            <img src="../imgs/logo.png" alt="" class="img-thumbnail">
-              <a class="button-nav" href="homepage.html#navbar">Home Link</a>
-              <div></div>
-              <a class="button-nav" href="about.html">About</a>
-              <a class="button-nav" href="blog.html">Blog</a>
-              <a class="button-nav" href="cart.html">Cart</a>
-        </nav>
+      <nav class="navbar grid-row" id="navbar">
+          <div class="grid-col-1of4-home">
+            <img src="../imgs/logo.png" alt="" class="img-thumbnail"/>
+            <a class="button-nav" href="homepage.html#navbar">Home</a>
+          </div>
+          <div class="grid-col-1of4-nav">
+            <a class="button-nav" href="about.html">About</a>
+          </div>
+          <div class="grid-col-1of4-nav">
+            <a class="button-nav" href="blog.html">Blog</a>
+          </div>
+          <div class="grid-col-1of4-nav">
+            <a class="button-nav" href="cart.html">Cart</a>
+          </div>
+      </nav>
 
 
         <div class="body-container">
+            <div class="grid-row">
             <h1>Form</h1>
+            </div>
+            <div class="grid-row">
             <h2>Personal Information</h2>
-            <section>
+            </div>
+            <div class="grid-row">
+            <section class="grid-col-2of3">
                 <form>
-                    <label for="form-name">Name</label>
+                    <label for="form-name"class="label" >Name</label>
                     <input type="text" id="form-name" name="Name" class="textform">
                     <label for="form-email">Email</label>
                     <input type="text" id="form-email" name="Email" class="textform">
@@ -42,8 +54,7 @@
                     <input type="text" name="shipping-country" class="textform" placeholder="Country">
                     <input type="text" name="shipping-postal" class="textform" placeholder="Postal Code">
 
-                    <label for="form-billing">Billing Information</label>
-                    <br>
+                    <label for="form-billing" class="grid-row">Billing Information</label>
                     <input type="checkbox" name="same-shipping" value="same-shipping"> Same as Shipping Address <br>
                     <input type="text" id="form-billing" name="billing-address" class="textform" placeholder="Address">
                     <input type="text" name="billing-city" class="textform" placeholder="City">
@@ -53,38 +64,61 @@
                 </form>
             </section>
 
+            <div class="grid-col-1of3">
+            </div>
+            </div>
+            <div class="grid-row">
             <h2>Credit Card Information</h2>
-            <section>
-                <form>
-                    <label for="card-name">Card Holder Name</label>
-                    <input type="text" id="card-name" name="card-name" class="textform">
-                    <label for="card-number">Card Number</label>
-                    <input type="text" id="card-number" name="card-number" class="textform">
-                    <label for="card-security">Security Number</label>
-                    <input type="text" id="card-security" name="card-security" class="textform">
-                    <label for="card-expire">Expiry Date</label>
-                    <input type="text" id="card-expire" name="card-expire" class="textform" placeholder="MM/YY">
-                </form>
-            </section>
-
+            </div>
+            <div class="grid-row">
+                <section class="grid-col-2of3">
+                    <form>
+                      <label for="card-name">Card Holder Name</label>
+                      <input type="text" id="card-name" name="card-name" class="textform">
+                      <label for="card-number">Card Number</label>
+                      <input type="text" id="card-number" name="card-number" class="textform">
+                      <label for="card-security">Security Number</label>
+                      <input type="text" id="card-security" name="card-security" class="textform">
+                      <label for="card-expire">Expiry Date</label>
+                      <input type="text" id="card-expire" name="card-expire" class="textform" placeholder="MM/YY">
+                    </form>
+              </section>
+            <div class="grid-col-1of3">
+            </div>
+          </div>
+          <div class="grid-row">
             <a class="button-main" href="confirmation.html"> Confirm </button>
+            </div>
 
         </div>
 
         <footer class="footer">
-            <a class="button-nav" href="homepage.html#navbar">Home</a>
-            <a class="button-nav" href="about.html">About</a>
-            <a class="button-nav" href="blog.html">Blog</a>
-            <a class="button-nav" href="../Citations.html">Citations</a>
-            <a class="button-nav" href="../Style_guide.html">Styleguide</a>
-            <a class="button-nav" href="https://github.com/pheaj19/IAT-339-P02-Gary-Aron">Github Repo</a>
-            <p> <strong>Hamish and Co Artisanal Firewood</strong>
-                <br>
-                1234 Fake St, Vancouver, BC, Canada
-                <br>
-                604-555-1234
-                <br>
-            </p>
+            <div class="grid-row">
+            <div class="grid-col-1of6-footer">
+                <a class="button-nav" href="homepage.html#navbar">Home</a>
+            </div>
+            <div class="grid-col-1of6-footer">
+                <a class="button-nav" href="about.html">About</a>
+            </div>
+            <div class="grid-col-1of6-footer">
+                <a class="button-nav" href="blog.html">Blog</a>
+            </div>
+            <div class="grid-col-1of6-footer">
+                <a class="button-nav" href="../Citations.html">Citations</a>
+            </div>
+            <div class="grid-col-1of6-footer">
+                <a class="button-nav" href="../Style_guide.html">Styleguide</a>
+            </div>
+            <div class="grid-col-1of6-footer">
+                <a class="button-nav" href="https://github.com/pheaj19/IAT-339-P02-Gary-Aron">Github Repo</a>
+            </div>
+          </div>
+          <div class="grid-row grid-col-1of1">
+            <h3>Hamish and Co Artisanal Firewood</h3>
+          </div>
+          <div class="grid-row grid-col-1of1">
+            1234 Fake St, Vancouver, BC, Canada | 604-555-1234
+          </div>
         </footer>
 
     </body>

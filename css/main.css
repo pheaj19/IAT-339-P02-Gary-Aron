@@ -42,6 +42,7 @@
 }
 
 .button-main {
+    margin: 5% 1em;
     display: inline-block;
     padding: 0.5em 1.5em;
     background-color: #F0F0F0;
@@ -69,7 +70,7 @@
 .textform{
     width: 100%;
     padding: .5em .3em;
-    margin: .5em 0;
+    margin: 1em 0;
     border-style: hidden hidden solid hidden;
     background-color: #FFFFFF;
     border-radius: 5px;
@@ -94,7 +95,7 @@
 */
 
 h1{
-    margin: .5em 0;
+    margin: .5em 1em;
     font-family: 'Volkhov', sans-serif;
     font-size: 2em;
 }
@@ -102,10 +103,11 @@ h1{
 h2{
     font-family: 'Volkhov', sans-serif;
     font-size: 1.3em;
+    margin: 0.5em 0.7em;
 }
 
 h3{
-    margin: .5em 0;
+    margin: .5em 1em;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.1em;
 }
@@ -115,6 +117,14 @@ body {
   color: #4D4D4D;
   font-family: 'Open Sans', sans-serif;
 }
+
+p, form{
+  margin:0.5em 1em;
+}
+
+label, input{
+  margin:4em 0;
+} 
 
 .u-list{
     padding: 1em;
@@ -150,12 +160,10 @@ section{
   margin: 3% 0 10% 0;
 }
 
-
 .navbar{
     display: inline-block;
-    width: 100%;
     background-color: #64825e;
-    padding: 0em 1em;
+    padding: 0em 3em;
     align-items: center;
 }
 
@@ -176,18 +184,16 @@ section{
 
 .product-listing h2{
     margin: 1em 0 .3em 0;
+    text-decoration:none;
 }
 .product-listing h3{
     margin: .3em 0;
-}
-
-.product-listing img{
-    width: 100%;
-    heighT: auto;
+    text-decoration:none;
 }
 
 .product-listing:visited{
     color: #191919;
+    text-decoration:none;
 }
 
 .footer{
@@ -197,6 +203,7 @@ section{
     padding: .5em 0em;
     align-items: flex-start;
     justify-content: center;
+    position:absolute;
 }
 
 .footer p{
@@ -217,9 +224,8 @@ section{
     flex-wrap: wrap;
 }
 
-.content-container{
-  width: 70%;
-  margin: 5% 15% 5% 15%
+.body-container{
+  background-color: #ffffff;
 }
 
 .collection-des-container{
@@ -266,6 +272,7 @@ section{
     background-color: #FFFFFF;
 }
 
+
 .footer p{
   text-align:center;
   flex-direction: column;
@@ -274,17 +281,23 @@ section{
 }
 
 .image-gallery img{
-  width:25%;
-  height:25%;
-  margin: 3.5% 3.5% 0% 3.5%;
+  margin: 0 0;
 }
 
 
 img{
-  margin: 0 0 0 0;
+  margin: 0 0;
 }
 
 .img-thumbnail{
-  width:5%;
-  height:35px;
+  max-width:100%;
+  max-height: 100%;
+  width:auto;
+  height:auto;
+}
+
+.image-full img{
+  width: 100%;
+  height: auto;
+  margin: 10% 0;
 }

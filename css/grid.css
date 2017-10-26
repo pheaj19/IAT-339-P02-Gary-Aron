@@ -8,8 +8,12 @@
 	padding: 0;
 }
 
-.grid-col-1of2, .grid-col-1of4, .grid-col-1of3, .grid-col-1of3-footer, .grid-col-2of3, .grid-col-1of4-nav, .grid-col-1of4-home, .grid-col-1of6-footer{
+.grid-col-1of1 .grid-col-1of2, .grid-col-1of4, .grid-col-1of3, .grid-col-2of3, .grid-col-1of4-nav, .grid-col-1of4-home, .grid-col-1of6-footer{
 	width: 100%;
+}
+
+.grid-col-1of1{
+  text-align:center;
 }
 
 .grid-col-1of3{
@@ -17,6 +21,21 @@
   justify-content: center;
   text-align:center;
   padding:3% 0;
+}
+
+.grid-col-1of3 img{
+  width:25rem;
+  height:18.75rem;
+}
+
+.grid-col-1of3-gallery{
+  width:30%;
+}
+
+
+.grid-col-1of4-home img{
+  max-width:25%;
+  max-height:25%;
 }
 
 .grid-row::after {
@@ -33,14 +52,14 @@
 
 /*for all the content within the body (navbar, herobanner, footer)*/
 .body-container{
-  width: 70%;
-  margin: 5% 15% 5% 15%
+  width: 90%;
+  margin: 5% 5% 5% 5%
 }
 
 .collection-des-container{
   padding-left: 6%;
   padding-right: 6%;
-  margin: 7% 0 7% 0
+  margin: 7% 0 7% 0;
 }
 
 /*Container for default div*/
@@ -72,23 +91,41 @@
 
 /*For product page*/
 .image-gallery{
-    margin: 0 auto;
     display:flex;
-    width:50%;
     justify-content: center;
+    width: 100%;
+    height: 10em;
+    padding:10% 0;
 }
 
-@media (mind-width: 23.75em){
+.gallery-notfirst{
+  padding-left: 10%;
+}
+
+
+@media (min-width: 23.75em){
+
   .grid-col-1of6-footer {
 		width: 33.333%;
 	}
+
+  .grid-col-1of3 img{
+    width:25em;
+    height:18.75em;
+  }
+
 }
 
 @media (min-width: 48.75em) {
+  .body-container{
+    width: 70%;
+    margin: 5% 15% 5% 15%
+  }
 
 	.grid-col-1of2 {
 		width: 50%;
 	}
+
 
 	.grid-col-1of2:last-of-type {
 		padding-left: 1rem;
@@ -112,13 +149,18 @@
 	}
 
   .grid-col-1of3 {
-		width: 33.333%;
+		width: 100%;
 	}
 
   .grid-col-1of3 img{
-		width: 60%;
-    height:auto;
+		width: 24em;
+    height:18em;
 	}
+
+  .image-gallery{
+    width:100%;
+    height:auto;
+  }
 }
 
 
@@ -134,8 +176,9 @@
 	}
 
   .grid-col-1of3 img{
-		width: 80%;
-    height:auto;
+		width: 20em;
+    height: 16em;
+    padding: 5% 5%;
 	}
 
 	.grid-col-1of4 {
@@ -148,10 +191,14 @@
   }
 
   .grid-col-1of4-home{
-    width:49%;
+    width:15%;
   }
 
   .grid-col-1of6-footer{
     width:16.66%;
+  }
+
+  .image-gallery{
+    height:auto;
   }
 }
