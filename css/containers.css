@@ -1,101 +1,125 @@
+/* Container.css is specifically created to store setting of container related elements*/
 body{
     margin: 0;
 }
 
+/*general layout setting for content*/
 .body-container{
     width: 70%;
     margin: 0% 15% 0% 15%;
     background: #FFFFFF;
 }
 
+/*stripe color setting*/
 .stripe{
     background-color: #ededed;
 }
 
+/*full image display setting*/
 .full-image{
     width: 100%;
     margin: 2em .5em;
 }
 
+/*general setting for collection-des-container, used for homepage.html*/
 .collection-des-container{
     padding: 0px 12%;
     margin: 7% 0em 3% 0em;
     text-align: center;
 }
 
+/*general layout/display setting for stripe-container, used for general*/
 .stripe-container{
     width: 100%;
     display: flex;
     padding: 4em 1em;
     justify-content: space-around;
     margin: .5em 0;
+    flex-wrap:wrap;
 }
 
+/*general setting for strip-text a.k.a one of the items within stripe-container, used for general*/
 .stripe-text{
-    flex: 1 1 60%;
+    flex: 1 1 100%;
     text-align: left;
-    padding:3% 3%;
+    padding:7%;
 }
 
+/*general setting for strip-iamge a.k.a one of the items within stripe-container, used for general*/
 .stripe-img{
-    flex: 1 1 40%;
+    flex: 1 1 100%;
+    margin:0 3%;
     text-align: center;
 }
 
+/*general setting for blog-iamge a.k.a one of the items within stripe-container, used for blog.html*/
 .blog-img{
-    flex-basis: 20%;
+    flex: 1 1 100%;
 }
 
+/*general setting for blog-text a.k.a one of the items within stripe-container, used for blog.html*/
 .blog-text{
-    flex-basis: 80%;
+    flex: 1 1 100%;
+    padding-left: 3%;
     text-align: left;
 }
 
+/*general setting for cart-img a.k.a one of the items within stripe-container, used for cart.html*/
 .cart-img{
-    padding: 0 2em;
+    padding: 5% 1% 1% 1%;
     text-align: center;
-    flex-basis: 30%;
+    flex-basis: 100%;
 }
 
+/*general setting for cart-header a.k.a one of the items within stripe-container, used for cart.html*/
 .cart-header{
     text-align: center;
     align-self: flex-end;
-    flex-basis: 30%;
-    padding: 0 2em;
+    flex-basis: 100%;
+    padding: 1% 1%;
 }
 
+/*general setting for cart-text a.k.a one of the items within stripe-container, used for cart.html*/
 .cart-text{
     text-align: center;
     align-self: flex-end;
-    flex-basis: 20%;
-    padding: 0 2em;
+    flex-basis: 100%;
+    padding: 1% 1%;
 }
 
+/*general setting for cart-text-checkout a.k.a one of the items within stripe-container, used for cart.html*/
 .cart-text-checkout{
   flex-grow: 1;
-  padding: 0em;
+  padding: 0 2.5% 0 2.5%;
   text-align: left;
+  flex-basis: 100%;
 }
 
+/* layout and display setting for all product-listing element*/
 .product-listing{
     display:flex;
     flex-direction: column;
     width: 100%;
     text-align: center;
     align-items: center;
-    margin: 0px 2em;
-    padding: 0px 0px 1em 0px;
+    margin: 0 2%;
+    padding: 0 0 1em 0;
+    flex: 1 1 100%;
 }
 
+/* sub class of product-lising, specifically for text*/
 .product-listing-text{
     padding: 0px .8em;
 }
 
+/* layout and display setting for image-gallery*/
 .image-gallery{
     display:flex;
     width:100%;
     justify-content: center;
 }
+
+/* layout and display setting for image-gallery-large*/
 .image-gallery-large{
     display:flex;
     flex-wrap:wrap;
@@ -104,11 +128,14 @@ body{
     margin: 2em 0;
 }
 
+/* layout and display setting for default-container*/
 .default-container{
   display: flex;
   margin: 3% 0;
+  flex-wrap: wrap;
 }
 
+/* layout and display setting for default-item a.k.a items within default-container*/
 .default-item{
     flex-grow: 1;
     padding: 1em;
@@ -116,7 +143,55 @@ body{
 
 }
 
-/*MEDIA QUERY*/
+/*MEDIA QUERY for resizing all container elements*/
+@media (min-width:40em){
+  .cart-header{
+      flex-basis: 30%;
+  }
+
+  .cart-text{
+      flex-basis: 20%;
+  }
+
+  .cart-text-checkout{
+    flex-basis: 50%
+  }
+}
+
+@media (min-width:50em){
+  .stripe-text{
+      flex: 1 1 60%;
+  }
+
+  .stripe-img{
+      flex: 1 1 40%;
+  }
+
+  .product-listing{
+      flex: 1 1 33.33%;
+  }
+
+  .default-container{
+      flex-wrap: nowrap;
+  }
+
+  .blog-img{
+      flex: 1 1 20%;
+  }
+
+  .blog-text{
+      flex: 1 1 80%;
+  }
+
+  .cart-img{
+      flex-basis: 30%;
+  }
+
+  .cart-text-checkout{
+    flex-basis: 33.33%
+  }
+
+}
 
 @media (min-width:62.5em){
 .image-gallery-large{

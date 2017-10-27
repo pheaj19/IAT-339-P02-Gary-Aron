@@ -1,33 +1,42 @@
+/* images.css is for storing setting of all image related element*/
 img{
   margin: 0 0;
 }
 
+/*general setting for img-listing, used for general*/
 .img-listing{
-    width: 100%;
-    height: auto;
+    width: 90%;
+    height: 90%;
 }
 
+/*general setting for img-product, used for homepage*/
 .img-product{
-    width:80%;
+    width:100%;
     height: auto;
+    padding:7%;
 }
 
+/*general setting for img-stripe, used for general*/
 .img-stripe{
     width: 100%;
     height: auto;
-    padding: 0 2em;
+    padding: 1em;
 }
 
+/*general setting for img-cart, used for cart.html*/
 .img-cart{
-    width: 70%;
+    width: 100%;
     height: auto;
 }
 
+/*general setting for img-blog, used for blog.html*/
 .img-blog{
-    width: 80%;
+    width: 100%;
     height: auto;
+    margin:0 0 5% 0;
 }
 
+/*general setting for logo-thumb, used for logo from navbar*/
 .logo-thumb{
     margin: 0.3em 1.55em;
     padding: 0;
@@ -35,25 +44,28 @@ img{
     height: auto;
 }
 
+/*general setting image-gallery images*/
 .image-gallery img{
-  width:15%;
-  height:15%;
-  margin: .5em .5em;
+  width:25%;
+  height:25%;
+  margin: 1% 2.5%;
 }
 
+/*general setting image-gallery-large images, used for about.html*/
 .image-gallery-large img{
   width:100%;
   height:100%;
   margin: .5em .5em;
 }
 
+/*general setting for image-full*/
 .image-full img{
   width: 100%;
   min-height: auto;
   margin: 10% 0;
 }
 
-/*MEDIA QUERY*/
+/*MEDIA QUERY for images.css*/
 @media (min-width:62.5em){
   .image-gallery-large img{
     width:30%;

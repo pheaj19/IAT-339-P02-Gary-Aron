@@ -1,10 +1,18 @@
+/*general setting for all coloumns*/
 [class^='form-grid-col-'] {
 	float: left;
 	padding: 0;
 }
 
+/*basic setting for grid column of form.html*/
 .form-grid-col-1of3, .form-grid-col-2of3, .form-grid-col-1of4, .form-grid-col-1of6{
   width:100%;
+  margin: 0 1em 0 0;
+}
+
+/*for cvv and expiry date column*/
+.form-grid-col-1of2{
+  width:30%;
   margin: 0 1em 0 0;
 }
 
@@ -12,11 +20,18 @@
 	content: "";
 	display: block;
 	clear: both;
-  margin: 5% 0;
 }
 
+/*MEDIA QUERY for form.html*/
 
-@media (min-width:48.75em){
+@media (min-width:45em){
+  .info-container{
+    margin: 0 15% 0 15%;
+  }
+  .form-grid-col-1of2{
+    width: 40%;
+  }
+
   .form-grid-col-2of3 {
 		width: 80%;
 	}
@@ -34,7 +49,12 @@
   }
 }
 
+
 @media (min-width: 72em) {
+  .form-grid-col-1of2{
+    width: 40%;
+  }
+
 	.form-grid-col-2of3 {
 		width: 63%;
 	}
