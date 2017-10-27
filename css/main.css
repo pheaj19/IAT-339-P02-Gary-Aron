@@ -34,7 +34,7 @@ select{
     font-family: 'Open Sans', sans-serif;
 }
 
-.button-main:hover, .button-nav:focus {
+.button-main:hover, .button-nav:focus, .button-nav:active {
     border-color: #64825e;
     color: #64825e;
 }
