@@ -95,12 +95,18 @@ body{
     width:100%;
     justify-content: center;
 }
-
 .image-gallery-large{
     display:flex;
+    flex-wrap:wrap;
     width:100%;
     justify-content: center;
     margin: 2em 0;
+}
+
+@media (min-width:62.5em){
+.image-gallery-large{
+    flex-wrap:nowrap;
+}
 }
 
 .default-container{

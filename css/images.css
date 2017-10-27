@@ -36,8 +36,8 @@ img{
 }
 
 .image-gallery-large img{
-  width:30%;
-  height:30%;
+  width:100%;
+  height:100%;
   margin: .5em .5em;
 }
 
@@ -45,4 +45,13 @@ img{
   width: 100%;
   min-height: auto;
   margin: 10% 0;
+}
+
+/*MEDIA QUERY*/
+@media (min-width:62.5em){
+  .image-gallery-large img{
+    width:30%;
+    height:30%;
+    margin: .5em .5em;
+  }
 }
