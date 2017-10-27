@@ -62,18 +62,10 @@
 
 
 /*Position confirmation div*/
-.flexbox-item-confirmation{
-  flex-grow: 1;
-  padding: 1em;
-  float:right;
-}
+
 
 /*Position for Checkout div*/
-.checkout{
-  float: right;
-  margin: 2% 0 7% 0;
-  text-align: right;
-}
+
 
 /*For product page*/
 

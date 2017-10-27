@@ -12,6 +12,11 @@ body{
     background-color: #ededed; 
 }
 
+.full-image{
+    width: 100%;
+    margin: 2em .5em;
+}
+
 .collection-des-container{
     padding: 0px 12%;
     margin: 7% 0 7% 0;
@@ -44,6 +49,32 @@ body{
     text-align: left;
 }
 
+.cart-img{
+    padding: 0 2em;
+    text-align: center;
+    flex-basis: 30%;
+}
+
+.cart-header{
+    text-align: center;
+    align-self: flex-end;
+    flex-basis: 30%;
+    padding: 0 2em;
+}
+
+.cart-text{
+    text-align: center;
+    align-self: flex-end;
+    flex-basis: 20%;
+    padding: 0 2em;
+}
+
+.cart-text-checkout{
+  flex-grow: 1;
+  padding: 0em;
+  text-align: left;
+}
+
 .product-listing{
     display:flex;
     flex-direction: column;
@@ -70,12 +101,6 @@ body{
     justify-content: center;
     margin: 2em 0;
 }
-
-.full-image{
-    width: 100%;
-    margin: 2em .5em;
-}
-
 
 .default-container{
   display: flex;

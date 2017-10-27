@@ -7,14 +7,14 @@ img{
     height: auto;
 }
 
-.img-product{
+.img-product, img-stripe{
     width:60%;
     height: auto;
 }
 
-.img-stripe{
-    width: 60%;
-    height: auto; 
+.img-cart{
+    width: 50%;
+    height: auto;
 }
 
 .img-blog{

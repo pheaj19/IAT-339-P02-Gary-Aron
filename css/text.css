@@ -49,6 +49,11 @@ p, label{
     line-height: 175%;
 }
 
+.cartcopy{
+    font-size: 1.1em;
+    margin: .5em 0px 0px 0px;
+}
+
 .blog-h3{
     font-size: 1.8em;
     margin: 0 0 .5em 0;
