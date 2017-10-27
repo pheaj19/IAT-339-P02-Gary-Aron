@@ -84,3 +84,7 @@ select{
 .quantity select{
     margin:10% 5%;
 }
+
+section{
+    margin: 3em;
+}
