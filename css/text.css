@@ -8,6 +8,7 @@ h2{
     font-family: 'Volkhov', sans-serif;
     font-size: 2em;
     margin: 0.5em 0;
+    color: #000000;
 }
 
 h3{
@@ -45,7 +46,7 @@ a{
     font-size: 1.5em;
     text-align: center;
     margin: .5em 0px 0px 0px;
-    color: #4D4D4D;
+    color: #000000;
 }
 
 .bodycopy{

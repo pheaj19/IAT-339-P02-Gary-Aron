@@ -3,7 +3,7 @@
     flex-flow: row wrap;
     width: 100%;
     background-color: #64825e;
-    padding: 0em 1em;
+    padding: 0em 2em;
     align-items: center;
     justify-content: space-around;
     box-shadow: 0px 5px 5px #888888;
@@ -14,10 +14,11 @@
 .spacer-div{
     flex: 3 3 auto;
 }
-
-.nav-div{
-    margin: .5em .8em;
-    flex: 1 1 auto;
+.nav-home{
+    flex-grow: 1;
+}
+.nav-home a{
+    width: auto;
 }
 
 .footer{
@@ -39,21 +40,23 @@
 
 .button-nav {
     display: inline-block;
-    padding: 0.5em 0.75em;
+    padding: 0 0.75em;
+    margin: 1em .8em;
     color: #FFFFFF;
     background-color: #64825e;
     text-decoration: none;
     -webkit-transition: background-color 0.5s ease-out;
     transition: background-color 0.5s ease-out;
     font-size: 1.2em;
+    font-weight: 100;
     font-family: 'Volkhov', sans-serif;
     text-align: center;
     justify-content: space-around;
+    width: 5em;
 }
 
 .button-nav:hover, .button-nav:focus {
-    color: #191919;
-    background-color: #efeff5;
+    color: #6F4015;
 }
 
 #nav-toggle.hidden, #navbar.hidden {

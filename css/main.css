@@ -72,8 +72,8 @@ select{
 
 .divider-line{
     border-style: solid;
-    border-width: 1px;
-    border-color: #191919;
+    border-width: .5px;
+    border-color: #64825e;
 }
 
 .checkout{
