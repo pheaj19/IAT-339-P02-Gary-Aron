@@ -25,6 +25,10 @@ a{
     text-decoration: none;
 }
 
+.intext-link{
+    color: #64825e;
+}
+
 /*header for herobanner*/
 .hero-h1{
     margin: 1em 0px 0px 0px;
