@@ -18,7 +18,7 @@
 
 @media (min-width:48.75em){
   .form-grid-col-2of3 {
-		width: 63%;
+		width: 80%;
 	}
 
   .form-grid-col-1of4 {
@@ -26,11 +26,11 @@
 	}
 
   .form-grid-col-1of3 {
-		width: 31%;
+		width: 40%;
 	}
 
   .form-grid-col-1of6{
-    width: 15%;
+    width: 20%;
   }
 }
 
@@ -48,6 +48,6 @@
 	}
 
   .form-grid-col-1of6{
-    width: 15%;
+    width: 16%;
   }
 }
