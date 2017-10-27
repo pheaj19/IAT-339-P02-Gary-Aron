@@ -3,6 +3,11 @@
     box-sizing: border-box;
 }
 
+section{
+    margin: 3em;
+}
+
+
 select{
     margin: 0 1em;
 }
@@ -83,8 +88,4 @@ select{
 
 .quantity select{
     margin:10% 5%;
-}
-
-section{
-    margin: 3em;
 }
