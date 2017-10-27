@@ -1,0 +1,15 @@
+.button-nav {
+    display: inline-block;
+    padding: 0.5em 0.75em;
+    color: #191919;
+    background-color: #64825e;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
+    font-size: 1.2em;
+    font-family: 'Volkhov', sans-serif;
+}
+
+.button-nav:hover, .button-nav:focus {
+    color: #FFFFFF;
+}

@@ -1,25 +1,9 @@
-/*
-  STYLE GUIDE STYLING
-  Default styling for the style guide
-*/
-
-
-/*
-  INTERACTIVE ELEMENTS -------------------
-*/
+body{
+    margin: 0;
+}
 
 /* Styling for the navigation button */
-.button-nav {
-    display: inline-block;
-    padding: 0.5em 0.75em;
-    color: #191919;
-    background-color: #64825e;
-    text-decoration: none;
-    -webkit-transition: background-color 0.5s ease-out;
-    transition: background-color 0.5s ease-out;
-    font-size: 1.2em;
-    font-family: 'Volkhov', sans-serif;
-}
+
 
 .button-nav:hover, .button-nav:focus {
     color: #FFFFFF;
@@ -61,52 +45,11 @@
     color: #4D4D4D;
     font-family: 'Open Sans', sans-serif;
 }
-
-/*
-  TEXT ELEMENTS -------------------
-*/
-
-h1{
-    margin: .5em 0.5em;
-    font-family: 'Volkhov', sans-serif;
-    font-size: 2em;
-}
-
-h2{
-    font-family: 'Volkhov', sans-serif;
-    font-size: 1.3em;
-    margin: 1.2em 0.7em;
-}
-
-h3{
-    margin: .5em 1em;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.1em;
-}
-
-body {
-  margin: 0px 0px 0px 0px;
-  color: #4D4D4D;
-  font-family: 'Open Sans', sans-serif;
-}
-
-p, form{
-  margin:0.5em 1em;
-}
-
-label, input{
-  margin:4em 0;
-}
-
 /*
   COMBINED ELEMENTS -------------------
 */
 *, *::after, *::before {
     box-sizing: border-box;
-}
-
-section{
-  margin: 3% 0 10% 0;
 }
 
 .navbar{
