@@ -1,3 +1,6 @@
+/* nav_footer.css is for storing setting related to navbar and footer*/
+
+/* general setting for navbar, used across all htmls*/
 .navbar{
     display: flex;
     flex-flow: row wrap;
@@ -10,11 +13,12 @@
     z-index: 100;
 }
 
-
+/* spacer-div is for spcaing out home and the rest of the buttons within navbar*/
 .spacer-div{
     flex: 0 0 0;
 }
 
+/* general setting for footer, used across all htmls*/
 .footer{
     display: flex;
     width: 100%;
@@ -26,12 +30,14 @@
     flex-wrap:wrap;
 }
 
+/* for company name, address, and phone*/
 .footer p{
     margin: 0;
     padding: .5em .75em;
     color:#efeff5;
 }
 
+/* button setting for navbar*/
 .button-nav {
     display: inline-block;
     padding: 0 0.75em;
@@ -58,6 +64,7 @@
 	display: none;
 }
 
+/*MEDIA QUERY for navbar and footer*/ 
 @media (min-width: 40em){
   .button-nav{
     flex: .2 0.3 7%;

@@ -1,3 +1,4 @@
+/* text.css is for storing setting of all text related elements*/
 h1{
     font-family: 'Volkhov', sans-serif;
     text-align: center;
@@ -24,6 +25,7 @@ a{
     text-decoration: none;
 }
 
+/*header for herobanner*/
 .hero-h1{
     margin: 1em 0px 0px 0px;
     font-size: 4em;
@@ -40,6 +42,7 @@ a{
     font-weight: 100;
 }
 
+/*header for listing, used for general*/
 .listing-h3{
     font-family: 'Volkhov', sans-serif;
     font-weight: 400;
@@ -55,19 +58,20 @@ a{
     text-decoration: underline;
 }
 
+/*general setting for bodycopy*/
 .bodycopy{
     font-size: 1.1em;
     line-height: 175%;
 }
 
+/*setting for cartcopy, used for cart.html*/
 .cartcopy{
     font-size: 1.1em;
     margin: .5em 0px 0px 0px;
 }
 
+/*setting for blog header, used for blog.html*/
 .blog-h3{
     font-size: 1.8em;
     margin: 0 0 .5em 0;
 }
-
-
