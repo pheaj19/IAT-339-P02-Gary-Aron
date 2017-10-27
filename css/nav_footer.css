@@ -53,3 +53,8 @@
     color: #FFFFFF;
 }
 
+#nav-toggle.hidden, #navbar.hidden {
+	visibility: hidden;
+	display: none;
+}
+

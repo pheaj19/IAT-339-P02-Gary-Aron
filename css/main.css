@@ -17,8 +17,8 @@ select{
     margin: 0 1em;
 }
 
-.button-main {
-    margin: 5% 0;
+.button-main, #nav-toggle {
+    margin: .5em 0;
     display: inline-block;
     padding: 0.5em 1.5em;
     background-color: #F0F0F0;
@@ -32,6 +32,11 @@ select{
     -webkit-transition: background-color 0.5s ease-out;
     transition: background-color 0.5s ease-out;
     font-family: 'Open Sans', sans-serif;
+}
+
+#nav-toggle{
+    display:block;
+    margin: 1em auto;
 }
 
 .button-main:hover, .button-nav:focus, .button-nav:active {
