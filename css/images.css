@@ -13,12 +13,19 @@ img{
 }
 
 .img-cart{
-    width: 50%;
+    width: 70%;
     height: auto;
 }
 
 .img-blog{
     width: 80%;
+    height: auto;
+}
+
+.logo-thumb{
+    margin-left: 1.55em;
+    padding: 0;
+    width: 40px;
     height: auto;
 }
 

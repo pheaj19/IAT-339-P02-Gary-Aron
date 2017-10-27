@@ -19,6 +19,10 @@ p, label{
     color: #4D4D4D;
 }
 
+a{
+    text-decoration: none;
+}
+
 .hero-h1{
     margin: 1em 0px 0px 0px;
     font-size: 4em;

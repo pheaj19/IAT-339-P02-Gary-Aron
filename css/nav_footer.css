@@ -1,19 +1,22 @@
 .navbar{
     display: flex;
+    flex-flow: row wrap;
     width: 100%;
     background-color: #64825e;
     padding: 0em 1em;
     align-items: center;
+    justify-content: center;
     box-shadow: 0px 5px 5px #888888;
     z-index: 100;
 }
 
-.navbar div{
-   flex: 1 1 auto;
+.spacer-div{
+    flex: 3;
 }
 
 .navbar a{
     margin: .5em .8em;
+    flex: 1;
 }
 
 .footer{
@@ -23,7 +26,8 @@
     padding: .5em 0em;
     align-items: flex-start;
     justify-content: center;
-     box-shadow: 0px -2px 5px #888888;
+    box-shadow: 0px -3px 5px #888888;
+    flex-wrap:wrap; 
 }
 
 .footer p{
@@ -32,7 +36,7 @@
 }
 
 .button-nav {
-    display: inline-block;
+    display: block;
     padding: 0.5em 0.75em;
     color: #191919;
     background-color: #64825e;
@@ -41,6 +45,7 @@
     transition: background-color 0.5s ease-out;
     font-size: 1.2em;
     font-family: 'Volkhov', sans-serif;
+    text-align: center;
 }
 
 .button-nav:hover, .button-nav:focus {
