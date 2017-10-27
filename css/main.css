@@ -135,16 +135,15 @@ section{
     text-decoration: none;
 }
 
-.product-listing h2{
-    text-decoration:none;
+.product-listing a{
+    text-decoration: none;
 }
-.product-listing h3{
-    text-decoration:none;
-}
-.product-listing:visited{
+
+.product-listing a:visited{
     color: #191919;
     text-decoration:none;
 }
+
 .product-listing img{
     width: 60%;
     height: auto;
