@@ -35,6 +35,15 @@ body{
     text-align: center;
 }
 
+.blog-img{
+    flex-basis: 20%;
+}
+
+.blog-text{
+    flex-basis: 80%;
+    text-align: left;
+}
+
 .product-listing{
     display:flex;
     flex-direction: column;

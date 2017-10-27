@@ -17,6 +17,11 @@ img{
     height: auto; 
 }
 
+.img-blog{
+    width: 80%;
+    height: auto;
+}
+
 .image-gallery img{
   width:15%;
   height:15%;
