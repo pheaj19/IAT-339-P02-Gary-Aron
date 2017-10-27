@@ -53,16 +53,7 @@
 
 
 /*for all the content within the body (navbar, herobanner, footer)*/
-.body-container{
-  width: 90%;
-  margin: 5% 5% 5% 5%
-}
 
-.collection-des-container{
-  padding-left: 6%;
-  padding-right: 6%;
-  margin: 7% 0 7% 0;
-}
 
 /*Container for default div*/
 .default-container{

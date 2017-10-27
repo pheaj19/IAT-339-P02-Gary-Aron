@@ -1,3 +1,35 @@
+.navbar{
+    display: flex;
+    width: 100%;
+    background-color: #64825e;
+    padding: 0em 1em;
+    align-items: center;
+    box-shadow: 0px 5px 5px #888888;
+}
+
+.navbar div{
+   flex: 1 1 auto;
+}
+
+.navbar a{
+    margin: .5em .8em;
+}
+
+.footer{
+    display: flex;
+    width: 100%;
+    background-color: #64825e;
+    padding: .5em 0em;
+    align-items: flex-start;
+    justify-content: center;
+     box-shadow: 0px -2px 5px #888888;
+}
+
+.footer p{
+    margin: 0;
+    padding: .5em .75em;
+}
+
 .button-nav {
     display: inline-block;
     padding: 0.5em 0.75em;
@@ -13,3 +45,4 @@
 .button-nav:hover, .button-nav:focus {
     color: #FFFFFF;
 }
+
