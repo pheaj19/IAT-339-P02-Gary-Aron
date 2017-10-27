@@ -1,3 +1,4 @@
+/*
 
 *, *::after, *::before {
 	box-sizing: border-box;
@@ -15,6 +16,8 @@
 .grid-col-1of4-space{
   width:0%;
 }
+*/
+/*
 
 .grid-col-1of1{
   text-align:center;
@@ -55,6 +58,7 @@
 .grid-col-1of4 > .nav-main-item {
 	width: 100%;
 }
+*/
 
 
 /*for all the content within the body (navbar, herobanner, footer)*/
@@ -75,6 +79,7 @@
 /*For product page*/
 
 
+/*
 .gallery-notfirst{
   padding-left: 10%;
 }
@@ -101,12 +106,10 @@
 }
 
 @media (min-width: 48.75em) {
-/*
   .body-container{
     width: 70%;
     margin: 0 15% 0 15%;
   }
-*/
 
 	.grid-col-1of2 {
 		width: 50%;
@@ -150,15 +153,19 @@
 		width: 24em;
     height:18em;
 	}
+*/
 
+/*
   .image-gallery{
     width:100%;
     height:auto;
   }
+*/
 }
 
 
 
+/*
 @media (min-width: 72em) {
 
 
@@ -203,7 +210,9 @@
   }
 
   .image-gallery{
-    height:auto;
+    width: 100%;
+      height:auto;
   }
 
 }
+*/
