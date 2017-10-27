@@ -4,11 +4,13 @@
 .left{
     display: block;
     float: left;
+    text-align: left;
 }
 
 .right{
     display: block;
     float: right;
+    text-align: right;
 }
 
 

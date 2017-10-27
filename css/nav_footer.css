@@ -15,7 +15,7 @@
     flex: 3 3 auto;
 }
 
-.navbar a{
+.nav-div{
     margin: .5em .8em;
     flex: 1 1 auto;
 }

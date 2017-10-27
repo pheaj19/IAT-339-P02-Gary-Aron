@@ -24,20 +24,21 @@ body{
 }
 
 .stripe-container{
+    width: 100%;
     display: flex;
     padding: 4em 1em;
-    justify-content: center;
+    justify-content: space-around;
     margin: .5em 0;
 }
 
 .stripe-text{
-    flex-basis: 40%;
+    flex: 1 1 60%;
     text-align: left;
     padding:3% 3%;
 }
 
 .stripe-img{
-    flex-basis: 60%;
+    flex: 1 1 40%;
     text-align: center;
 }
 

@@ -26,15 +26,15 @@ a{
 .hero-h1{
     margin: 1em 0px 0px 0px;
     font-size: 4em;
-    color: #FFFFFF;
+    color: #000000;
     letter-spacing: .1em;
-    font-weight: 100;
+    font-weight: 800;
 }
 
 .hero-h2{
     margin: 0px;
     font-size: 1.8em;
-    color: #FFFFFF;
+    color: #000000;
     letter-spacing: .1em;
     font-weight: 100;
 }

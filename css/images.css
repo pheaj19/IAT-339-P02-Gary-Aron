@@ -7,9 +7,15 @@ img{
     height: auto;
 }
 
-.img-product, img-stripe{
+.img-product{
     width:60%;
     height: auto;
+}
+
+.img-stripe{
+    width: 100%;
+    height: auto;
+    padding: 0 2em;
 }
 
 .img-cart{
