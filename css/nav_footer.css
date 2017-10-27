@@ -52,7 +52,7 @@
     font-family: 'Volkhov', sans-serif;
     text-align: center;
     justify-content: space-around;
-    width: 5em;
+    flex: 1 1 100%;
 }
 
 .button-nav:hover, .button-nav:focus {
@@ -62,4 +62,10 @@
 #nav-toggle.hidden, #navbar.hidden {
 	visibility: hidden;
 	display: none;
+}
+
+@media (min-width: 40em){
+  .button-nav{
+  flex: 1 1 5%;
+  }
 }

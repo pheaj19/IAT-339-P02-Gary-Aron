@@ -104,12 +104,6 @@ body{
     margin: 2em 0;
 }
 
-@media (min-width:62.5em){
-.image-gallery-large{
-    flex-wrap:nowrap;
-}
-}
-
 .default-container{
   display: flex;
   margin: 3% 0;
@@ -120,4 +114,12 @@ body{
     padding: 1em;
     text-align: center;
 
+}
+
+/*MEDIA QUERY*/
+
+@media (min-width:62.5em){
+.image-gallery-large{
+    flex-wrap:nowrap;
+}
 }
