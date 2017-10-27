@@ -1,10 +1,9 @@
-
 <!DOCTYPE html>
 <html>
 
     <head>
 
-    <html lang="en">
+    <html lang="en">     
     <meta charset="utf-8">
     <title>Form</title>
     <link href="../css/main.css" rel="stylesheet">
@@ -17,25 +16,19 @@
 
         <nav class="navbar" id="navbar">
             <img src="../imgs/logo.png" alt="" class="img-thumbnail">
-            <a class="button-nav" href="homepage.html#navbar">Home</a>
+            <a class="button-nav" href="homepage.html#navbar">Home Link</a>
             <div></div>
             <a class="button-nav" href="about.html">About</a>
             <a class="button-nav" href="blog.html">Blog</a>
             <a class="button-nav" href="cart.html">Cart</a>
         </nav>
 
-
         <div class="body-container">
-            <div class="grid-row">
             <h1>Form</h1>
-            </div>
-            <div class="grid-row">
             <h2>Personal Information</h2>
-            </div>
-            <div class="grid-row">
-            <section class="grid-col-2of3">
+            <div>
                 <form>
-                    <label for="form-name"class="label" >Name</label>
+                    <label for="form-name">Name</label>
                     <input type="text" id="form-name" name="Name" class="textform">
                     <label for="form-email">Email</label>
                     <input type="text" id="form-email" name="Email" class="textform">
@@ -47,8 +40,9 @@
                     <input type="text" name="shipping-province" class="textform" placeholder="Province">
                     <input type="text" name="shipping-country" class="textform" placeholder="Country">
                     <input type="text" name="shipping-postal" class="textform" placeholder="Postal Code">
-
-                    <label for="form-billing" class="grid-row">Billing Information</label>
+                    
+                    <label for="form-billing">Billing Information</label>
+                    <br>
                     <input type="checkbox" name="same-shipping" value="same-shipping"> Same as Shipping Address <br>
                     <input type="text" id="form-billing" name="billing-address" class="textform" placeholder="Address">
                     <input type="text" name="billing-city" class="textform" placeholder="City">
@@ -56,34 +50,23 @@
                     <input type="text" name="billing-country" class="textform" placeholder="Country">
                     <input type="text" name="billing-Postal Code" class="textform" placeholder="Postal Code">
                 </form>
-            </section>
-
-            <div class="grid-col-1of3">
             </div>
-            </div>
-            <div class="grid-row">
+        
             <h2>Credit Card Information</h2>
-            </div>
-            <div class="grid-row">
-                <section class="grid-col-2of3">
-                    <form>
-                      <label for="card-name">Card Holder Name</label>
-                      <input type="text" id="card-name" name="card-name" class="textform">
-                      <label for="card-number">Card Number</label>
-                      <input type="text" id="card-number" name="card-number" class="textform">
-                      <label for="card-security">Security Number</label>
-                      <input type="text" id="card-security" name="card-security" class="textform">
-                      <label for="card-expire">Expiry Date</label>
-                      <input type="text" id="card-expire" name="card-expire" class="textform" placeholder="MM/YY">
-                    </form>
-              </section>
-            <div class="grid-col-1of3">
-            </div>
-          </div>
-          <div class="grid-row">
-            <a class="button-main" href="confirmation.html"> Confirm </button>
+            <div>
+                <form>
+                    <label for="card-name">Card Holder Name</label>
+                    <input type="text" id="card-name" name="card-name" class="textform">
+                    <label for="card-number">Card Number</label>
+                    <input type="text" id="card-number" name="card-number" class="textform">
+                    <label for="card-security">Security Number</label>
+                    <input type="text" id="card-security" name="card-security" class="textform">
+                    <label for="card-expire">Expiry Date</label>
+                    <input type="text" id="card-expire" name="card-expire" class="textform" placeholder="MM/YY">
+                </form>
             </div>
 
+            <a class="button-main" href="confirmation.html"> Confirm </a>
         </div>
 
         <footer class="footer">
@@ -101,6 +84,7 @@
                 <br>
             </p>
         </footer>
+
     </body>
 
 </html>
