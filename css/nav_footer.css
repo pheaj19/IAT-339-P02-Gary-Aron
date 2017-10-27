@@ -58,9 +58,13 @@
 	display: none;
 }
 
-@media (min-width: 38.5em){
+@media (min-width: 40em){
   .button-nav{
-    flex: .3 0.3 10%;
+    flex: .2 0.3 7%;
+  }
+
+  .nav-home{
+    flex: 0.1 1 24%;
   }
 
   .spacer-div{

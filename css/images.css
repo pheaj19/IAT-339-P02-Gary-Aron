@@ -3,29 +3,31 @@ img{
 }
 
 .img-listing{
-    width: 100%;
-    height: auto;
+    width: 90%;
+    height: 90%;
 }
 
 .img-product{
-    width:80%;
+    width:100%;
     height: auto;
+    padding:7%;
 }
 
 .img-stripe{
     width: 100%;
     height: auto;
-    padding: 0 2em;
+    padding: 1em;
 }
 
 .img-cart{
-    width: 70%;
+    width: 100%;
     height: auto;
 }
 
 .img-blog{
-    width: 80%;
+    width: 100%;
     height: auto;
+    margin:0 0 5% 0;
 }
 
 .logo-thumb{
@@ -36,9 +38,9 @@ img{
 }
 
 .image-gallery img{
-  width:15%;
-  height:15%;
-  margin: .5em .5em;
+  width:25%;
+  height:25%;
+  margin: 1% 2.5%;
 }
 
 .image-gallery-large img{

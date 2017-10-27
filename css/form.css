@@ -15,6 +15,7 @@
   margin: 5% 0;
 }
 
+/*MEDIA QUERY*/
 
 @media (min-width:48.75em){
   .form-grid-col-2of3 {

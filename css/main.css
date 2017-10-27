@@ -70,5 +70,9 @@ select{
 }
 
 .quantity{
-    margin: 3em 0;
+    margin: 15% 0 10% 0;
+}
+
+.quantity select{
+    margin:10% 5%;
 }
