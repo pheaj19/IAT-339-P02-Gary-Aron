@@ -12,13 +12,7 @@
 
 
 .spacer-div{
-    flex: 3 3 auto;
-}
-.nav-home{
-    flex-grow: 1;
-}
-.nav-home a{
-    width: auto;
+    flex: 0 0 0;
 }
 
 .footer{
@@ -64,8 +58,12 @@
 	display: none;
 }
 
-@media (min-width: 40em){
+@media (min-width: 38.5em){
   .button-nav{
-  flex: 1 1 5%;
+    flex: .3 0.3 10%;
+  }
+
+  .spacer-div{
+    flex: 3 3 auto;
   }
 }
