@@ -1,6 +1,23 @@
 *, *::after, *::before {
     box-sizing: border-box;
 }
+.left{
+    display: block;
+    float: left;
+}
+
+.right{
+    display: block;
+    float: right;
+}
+
+a{
+    text-decoration: none;
+}
+
+select{
+    margin: 0 1em;
+}
 
 .button-main {
     margin: 5% 1em;
@@ -35,9 +52,6 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-
-
-
 .herobanner{
     display: -webkit-flex;
     display: -ms-flex;
@@ -55,4 +69,10 @@
     border-style: solid;
     border-width: 1px;
     border-color: #191919;
+}
+
+.checkout{
+  float: right;
+  margin: 1em 0px 1.5em 0px;
+  text-align: center;
 }

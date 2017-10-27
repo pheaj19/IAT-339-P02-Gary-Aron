@@ -7,29 +7,35 @@ img{
     height: auto;
 }
 
-.img-stripe{
-    width: 60%;
-    height: auto; 
+.img-product, img-stripe{
+    width:60%;
+    height: auto;
 }
 
-.left{
-    display: block;
-    float: left;
+.img-cart{
+    width: 50%;
+    height: auto;
 }
 
-.right{
-    display: block;
-    float: right;
+.img-blog{
+    width: 80%;
+    height: auto;
 }
 
 .image-gallery img{
   width:15%;
   height:15%;
-  margin: 3.5% 3.5% 0% 3.5%;
+  margin: .5em .5em;
+}
+
+.image-gallery-large img{
+  width:30%;
+  height:30%;
+  margin: .5em .5em;
 }
 
 .image-full img{
   width: 100%;
-  height: auto;
+  min-height: auto;
   margin: 10% 0;
 }
