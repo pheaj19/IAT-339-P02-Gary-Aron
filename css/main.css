@@ -36,11 +36,10 @@ select{
 
 .textform{
     width: 100%;
-    padding: .5em .3em;
+    padding: .5em .3em 1em .3em;
     margin: 1em 0;
     border-style: hidden hidden solid hidden;
     background-color: #FFFFFF;
-    border-radius: 5px;
     color: #4D4D4D;
     font-family: 'Open Sans', sans-serif;
 }
@@ -68,4 +67,8 @@ select{
   float: right;
   margin: 1em 0px 1.5em 0px;
   text-align: center;
+}
+
+.quantity{
+    margin: 3em 0;
 }
