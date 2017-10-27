@@ -1,0 +1,43 @@
+[class^='form-grid-col-'] {
+	float: left;
+	padding: 0;
+}
+
+.form-grid-col-1of3, .form-grid-col-2of3, .form-grid-col-1of4, .form-grid-col-1of6{
+  width:100%;
+  margin: 0 1em 0 0;
+}
+
+.form-grid-row::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+@media (min-width:48.75){
+  .form-grid-col-1of4 {
+		width: 50%;
+  }
+
+  .form-grid-col-1of3 {
+		width: 100%;
+	}
+}
+
+@media (min-width: 72em) {
+	.form-grid-col-2of3 {
+		width: 66.666%;
+	}
+
+  .form-grid-col-1of4 {
+		width: 25%;
+	}
+
+  .form-grid-col-1of3 {
+		width: 33.333%;
+	}
+
+  .form-grid-col-1of6{
+    width: 16.67%;
+  }
+}

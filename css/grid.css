@@ -20,6 +20,11 @@
   text-align:center;
 }
 
+.grid-col-1of2-banner{
+  align-items:center;
+  justify-content: center;
+}
+
 .grid-col-1of3{
   align-items: center;
   justify-content: center;
@@ -87,6 +92,14 @@
 
 }
 
+
+
+@media (min-width: 42em){
+  .grid-col-1of2-banner{
+    width: 50%;
+  }
+}
+
 @media (min-width: 48.75em) {
 /*
   .body-container{
@@ -101,6 +114,14 @@
 
 
 	.grid-col-1of2:last-of-type {
+		padding-left: 1rem;
+	}
+
+	.grid-col-1of4 {
+		width: 50%;
+  }
+
+	.grid-col-1of2:last-of-type{
 		padding-left: 1rem;
 	}
 
@@ -136,7 +157,10 @@
   }
 }
 
+
+
 @media (min-width: 72em) {
+
 
 	.grid-col-2of3 {
 		width: 66.666%;
@@ -181,5 +205,5 @@
   .image-gallery{
     height:auto;
   }
-    
+
 }
