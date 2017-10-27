@@ -7,29 +7,30 @@ img{
     height: auto;
 }
 
+.img-product{
+    width:60%;
+    height: auto;
+}
+
 .img-stripe{
     width: 60%;
     height: auto; 
 }
 
-.left{
-    display: block;
-    float: left;
-}
-
-.right{
-    display: block;
-    float: right;
-}
-
 .image-gallery img{
   width:15%;
   height:15%;
-  margin: 3.5% 3.5% 0% 3.5%;
+  margin: .5em .5em;
+}
+
+.image-gallery-large img{
+  width:30%;
+  height:30%;
+  margin: .5em .5em;
 }
 
 .image-full img{
   width: 100%;
-  height: auto;
+  min-height: auto;
   margin: 10% 0;
 }

@@ -4,15 +4,18 @@ h1{
 
 h2{
     font-family: 'Volkhov', sans-serif;
+    font-size: 2em;
+    margin: 0.5em 0;
 }
 
 h3{
     font-family: 'Open Sans', sans-serif;
 }
 
-p{
+p, label{
     font-family: 'Open Sans', sans-serif;
-    color: #4D4D4D
+    color: #4D4D4D;
+    margin: 0 .5rem;
 }
 
 .hero-h1{

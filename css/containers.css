@@ -3,8 +3,8 @@ body{
 }
 
 .body-container{
-    width: 90%;
-    margin: 5% 5% 5% 5%;
+    width: 70%;
+    margin: 0% 15% 0% 15%;
     background: #FFFFFF;
 }
 
@@ -22,6 +22,7 @@ body{
     display: flex;
     padding: 4em 1em;
     justify-content: center;
+    margin: .5em 0;
 }
 
 .stripe-text{
@@ -31,6 +32,7 @@ body{
 
 .stripe-img{
     flex-basis: 60%;
+    text-align: center;
 }
 
 .product-listing{
@@ -43,13 +45,28 @@ body{
     padding: 0px 0px 1em 0px;
 }
 
-.product-listing a{
-    text-decoration: none;
-}
-
 .product-listing-text{
     padding: 0px .8em;
 }
+
+.image-gallery{
+    display:flex;
+    width:50%;
+    justify-content: center;
+}
+
+.image-gallery-large{
+    display:flex;
+    width:100%;
+    justify-content: center;
+    margin: 2em 0;
+}
+
+.full-image{
+    width: 100%;
+    margin: 2em .5em;
+}
+
 
 .default-container{
   display: flex;
