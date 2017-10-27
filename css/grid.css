@@ -8,7 +8,7 @@
 	padding: 0;
 }
 
-.grid-col-1of1 .grid-col-1of2, .grid-col-1of4, .grid-col-1of3, .grid-col-2of3, .grid-col-1of4-nav,.grid-col-1of4-home, .grid-col-1of6-footer{
+.grid-col-1of1, .grid-col-1of2, .grid-col-1of4, .grid-col-1of3, .grid-col-2of3, .grid-col-1of4-nav,.grid-col-1of4-home, .grid-col-1of6-footer{
 	width: 100%;
 }
 
@@ -36,7 +36,6 @@
   width:30%;
 }
 
-
 .grid-col-1of4-home img{
   max-width:25%;
   max-height:25%;
@@ -51,7 +50,6 @@
 .grid-col-1of4 > .nav-main-item {
 	width: 100%;
 }
-
 
 
 /*for all the content within the body (navbar, herobanner, footer)*/
@@ -105,7 +103,6 @@
 .gallery-notfirst{
   padding-left: 10%;
 }
-
 
 @media (min-width: 23.75em){
 
@@ -167,8 +164,6 @@
   }
 }
 
-
-
 @media (min-width: 72em) {
 
 	.grid-col-2of3 {
@@ -214,4 +209,5 @@
   .image-gallery{
     height:auto;
   }
+    
 }
