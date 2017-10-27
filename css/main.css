@@ -1,34 +1,21 @@
 *, *::after, *::before {
     box-sizing: border-box;
 }
-.left{
-    display: block;
-    float: left;
-    text-align: left;
-}
-
-.right{
-    display: block;
-    float: right;
-    text-align: right;
-}
-
-
 
 select{
     margin: 0 1em;
 }
 
 .button-main, #nav-toggle {
-    margin: .5em 0;
+    margin: 1em 0;
     display: inline-block;
     padding: 0.5em 1.5em;
-    background-color: #F0F0F0;
+    background-color: #FFFFFF;
+    border-color: #64825e;
     border-style: solid;
     border-width: 2px;
-    border-color: #191919;
     border-radius: 3px;
-    color: #191919;
+    color: #64825e;
     font-size: .9em;
     text-decoration: none;
     -webkit-transition: background-color 0.5s ease-out;
@@ -42,8 +29,9 @@ select{
 }
 
 .button-main:hover, .button-nav:focus, .button-nav:active {
-    border-color: #64825e;
-    color: #64825e;
+    background-color: #64825e;
+    color: #FFFFFF;
+    font-weight: 600;
 }
 
 .textform{

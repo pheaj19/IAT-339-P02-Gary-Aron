@@ -45,8 +45,7 @@
     color: #FFFFFF;
     background-color: #64825e;
     text-decoration: none;
-    -webkit-transition: background-color 0.5s ease-out;
-    transition: background-color 0.5s ease-out;
+    transition: color 0.2s ease-out;
     font-size: 1.2em;
     font-weight: 100;
     font-family: 'Volkhov', sans-serif;
@@ -55,8 +54,9 @@
     flex: 1 1 100%;
 }
 
-.button-nav:hover, .button-nav:focus {
-    color: #6F4015;
+.button-nav:hover, .button-nav:focus, .button-nav:active {
+    color: #191919;
+    text-decoration: underline;
 }
 
 #nav-toggle.hidden, #navbar.hidden {

@@ -47,6 +47,12 @@ a{
     text-align: center;
     margin: .5em 0px 0px 0px;
     color: #000000;
+    transition: color 0.2s ease-out;
+}
+
+.listing-h3:hover{
+    color: #64825e;
+    text-decoration: underline;
 }
 
 .bodycopy{
