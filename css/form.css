@@ -1,3 +1,4 @@
+/*general setting for all coloumns*/
 [class^='form-grid-col-'] {
 	float: left;
 	padding: 0;
@@ -47,6 +48,7 @@
     width: 20%;
   }
 }
+
 
 @media (min-width: 72em) {
   .form-grid-col-1of2{

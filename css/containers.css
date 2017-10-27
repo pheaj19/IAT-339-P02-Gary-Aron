@@ -1,28 +1,34 @@
+/* Container.css is specifically created to store setting of container related elements*/
 body{
     margin: 0;
 }
 
+/*general layout setting for content*/
 .body-container{
     width: 70%;
     margin: 0% 15% 0% 15%;
     background: #FFFFFF;
 }
 
+/*stripe color setting*/
 .stripe{
     background-color: #ededed;
 }
 
+/*full image display setting*/
 .full-image{
     width: 100%;
     margin: 2em .5em;
 }
 
+/*general setting for collection-des-container, used for homepage.html*/
 .collection-des-container{
     padding: 0px 12%;
     margin: 7% 0em 3% 0em;
     text-align: center;
 }
 
+/*general layout/display setting for stripe-container, used for general*/
 .stripe-container{
     width: 100%;
     display: flex;
@@ -32,34 +38,40 @@ body{
     flex-wrap:wrap;
 }
 
+/*general setting for strip-text a.k.a one of the items within stripe-container, used for general*/
 .stripe-text{
     flex: 1 1 100%;
     text-align: left;
     padding:7%;
 }
 
+/*general setting for strip-iamge a.k.a one of the items within stripe-container, used for general*/
 .stripe-img{
     flex: 1 1 100%;
     margin:0 3%;
     text-align: center;
 }
 
+/*general setting for blog-iamge a.k.a one of the items within stripe-container, used for blog.html*/
 .blog-img{
     flex: 1 1 100%;
 }
 
+/*general setting for blog-text a.k.a one of the items within stripe-container, used for blog.html*/
 .blog-text{
     flex: 1 1 100%;
     padding-left: 3%;
     text-align: left;
 }
 
+/*general setting for cart-img a.k.a one of the items within stripe-container, used for cart.html*/
 .cart-img{
     padding: 5% 1% 1% 1%;
     text-align: center;
     flex-basis: 100%;
 }
 
+/*general setting for cart-header a.k.a one of the items within stripe-container, used for cart.html*/
 .cart-header{
     text-align: center;
     align-self: flex-end;
@@ -67,6 +79,7 @@ body{
     padding: 1% 1%;
 }
 
+/*general setting for cart-text a.k.a one of the items within stripe-container, used for cart.html*/
 .cart-text{
     text-align: center;
     align-self: flex-end;
@@ -74,6 +87,7 @@ body{
     padding: 1% 1%;
 }
 
+/*general setting for cart-text-checkout a.k.a one of the items within stripe-container, used for cart.html*/
 .cart-text-checkout{
   flex-grow: 1;
   padding: 0 2.5% 0 2.5%;
@@ -81,6 +95,7 @@ body{
   flex-basis: 100%;
 }
 
+/* layout and display setting for all product-listing element*/
 .product-listing{
     display:flex;
     flex-direction: column;
@@ -92,15 +107,19 @@ body{
     flex: 1 1 100%;
 }
 
+/* sub class of product-lising, specifically for text*/
 .product-listing-text{
     padding: 0px .8em;
 }
 
+/* layout and display setting for image-gallery*/
 .image-gallery{
     display:flex;
     width:100%;
     justify-content: center;
 }
+
+/* layout and display setting for image-gallery-large*/
 .image-gallery-large{
     display:flex;
     flex-wrap:wrap;
@@ -109,12 +128,14 @@ body{
     margin: 2em 0;
 }
 
+/* layout and display setting for default-container*/
 .default-container{
   display: flex;
   margin: 3% 0;
   flex-wrap: wrap;
 }
 
+/* layout and display setting for default-item a.k.a items within default-container*/
 .default-item{
     flex-grow: 1;
     padding: 1em;
@@ -122,7 +143,7 @@ body{
 
 }
 
-/*MEDIA QUERY*/
+/*MEDIA QUERY for resizing all container elements*/
 @media (min-width:40em){
   .cart-header{
       flex-basis: 30%;
