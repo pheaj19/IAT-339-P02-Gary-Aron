@@ -27,18 +27,19 @@
     align-items: flex-start;
     justify-content: center;
     box-shadow: 0px -3px 5px #888888;
-    flex-wrap:wrap; 
+    flex-wrap:wrap;
 }
 
 .footer p{
     margin: 0;
     padding: .5em .75em;
+    color:#efeff5;
 }
 
 .button-nav {
     display: inline-block;
     padding: 0.5em 0.75em;
-    color: #191919;
+    color: #FFFFFF;
     background-color: #64825e;
     text-decoration: none;
     -webkit-transition: background-color 0.5s ease-out;
@@ -50,11 +51,11 @@
 }
 
 .button-nav:hover, .button-nav:focus {
-    color: #FFFFFF;
+    color: #191919;
+    background-color: #efeff5;
 }
 
 #nav-toggle.hidden, #navbar.hidden {
 	visibility: hidden;
 	display: none;
 }
-
