@@ -29,9 +29,10 @@
 
         <div class="body-container">
             <h1>Checkout Info</h1>
+            <div class="info-container">
             <h3>Personal Information</h3>
             <div class="form-grid-row">
-                <form class="form-grid-row form-grid-col-2of3">
+                <form class="form-grid-row">
                       <div class="form-grid-row">
                         <label for="form-name">Name</label>
                         <input type="text" id="form-name" name="Name" class="textform">
@@ -48,24 +49,22 @@
                       <div class="form-grid-row">
                           <label for="form-shipping">Shipping Information</label>
                           <div class="form-grid-row">
-                          <div class="form-grid-col-2of3">
                             <input type="text" id="form-shipping" name="shipping-address" class="textform" placeholder="Address">
                           </div>
-                          <div class="form-grid-col-1of3">
-                              <input type="text" name="shipping-city" class="textform" placeholder="City">
+                          <div class="form-grid-row">
+                            <div class="form-grid-col-1of6">
+                                <input type="text" name="shipping-city" class="textform" placeholder="City">
+                            </div>
+                            <div class="form-grid-col-1of6">
+                                <input type="text" name="shipping-province" class="textform" placeholder="Province">
+                            </div>
+                            <div class="form-grid-col-1of6">
+                                <input type="text" name="shipping-country" class="textform" placeholder="Country">
+                            </div>
+                            <div class="form-grid-col-1of6">
+                                <input type="text" name="shipping-postal" class="textform" placeholder="Postal Code" >
+                            </div>
                           </div>
-                        </div>
-                        <div class="form-grid-row">
-                          <div class="form-grid-col-1of6">
-                              <input type="text" name="shipping-province" class="textform" placeholder="Province">
-                          </div>
-                          <div class="form-grid-col-1of4">
-                              <input type="text" name="shipping-country" class="textform" placeholder="Country">
-                          </div>
-                          <div class="form-grid-col-1of4">
-                              <input type="text" name="shipping-postal" class="textform" placeholder="Postal Code" >
-                          </div>
-                        </div>
                       </div>
 
 
@@ -73,50 +72,47 @@
                         <label for="form-billing">Billing Information</label>
                         <br>
                         <br>
-                        <input type="checkbox" name="same-shipping" value="same-shipping"> 
-                        <label for="same-shipping">Same as Shipping Address?</label>
-                      <div class="form-grid-row">
-                        <div class="form-grid-col-2of3">
+                        <input type="checkbox" name="same-shipping" value="same-shipping">
+                        <label for="same-shipping">Same as shipping address?</label>
+                        <div class="form-grid-row">
                           <input type="text" id="form-shipping" name="shipping-address" class="textform" placeholder="Address">
                         </div>
-                        <div class="form-grid-col-1of3">
-                          <input type="text" name="shipping-city" class="textform" placeholder="City">
+                        <div class="form-grid-row">
+                          <div class="form-grid-col-1of6">
+                              <input type="text" name="shipping-city" class="textform" placeholder="City">
+                          </div>
+                          <div class="form-grid-col-1of6">
+                              <input type="text" name="shipping-province" class="textform" placeholder="Province">
+                          </div>
+                          <div class="form-grid-col-1of6">
+                              <input type="text" name="shipping-country" class="textform" placeholder="Country">
+                          </div>
+                          <div class="form-grid-col-1of6">
+                              <input type="text" name="shipping-postal" class="textform" placeholder="Postal Code" >
+                          </div>
                         </div>
-                      </div>
-                      <div class="form-grid-row">
-                        <div class="form-grid-col-1of6">
-                            <input type="text" name="shipping-province" class="textform" placeholder="Province">
-                        </div>
-                        <div class="form-grid-col-1of4">
-                            <input type="text" name="shipping-country" class="textform" placeholder="Country">
-                        </div>
-                        <div class="form-grid-col-1of4">
-                            <input type="text" name="shipping-postal" class="textform" placeholder="Postal Code" >
-                        </div>
-                      </div>
                     </div>
                 </form>
             </div>
 
             <h3>Credit Card Information</h3>
                 <form class="formw-grid-row form-grid-col-1of3">
-                        <label for="card-name">Card Holder Name</label>
-                        <input type="text" id="card-name" name="card-name" class="textform">
-                        <label for="card-number">Card Number</label>
-                        <input type="text" id="card-number" name="card-number" class="textform">
-                      <div class="form-grid-col-1of3">
-                        <label for="card-security">CVV/CVC</label>
-                        <input type="text" id="card-security" name="card-security" class="textform">
+                        <input type="text" id="card-name" name="card-name" class="textform" placeholder="Card Holder Name">
+                        <input type="text" id="card-number" name="card-number" class="textform" placeholder="Card Number">
+                      <div class="form-grid-col-1of2">
+                        <input type="text" id="card-security" name="card-security" class="textform" placeholder="CVV/CVC">
                       </div>
-                      <div class="form-grid-col-1of3">
-                        <label for="card-expire">Expiry Date</label>
+                      <div class="form-grid-col-1of2">
                         <input type="text" id="card-expire" name="card-expire" class="textform" placeholder="MM/YY">
                       </div>
                   </div>
                 </form>
             <div class="form-grid-row">
-              <a class="button-main" href="confirmation.html"> Confirm </a>
+              <div class="checkout">
+              <a class="button-main" href="confirmation.html"> CONFIRM </a>
+            </div>
           </div>
+        </div>
         </div>
 
         <footer class="footer">
