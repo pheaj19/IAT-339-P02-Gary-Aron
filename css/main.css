@@ -236,11 +236,6 @@ img{
   margin: 0 0;
 }
 
-.img-thumbnail{
-  width:5%;
-  height:auto;
-}
-
 .image-full img{
   width: 100%;
   height: auto;
