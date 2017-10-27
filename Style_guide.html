@@ -199,7 +199,8 @@
         </nav>
       </section>
 
-    <h2>Footer</h2>
+    <section>    
+        <h2>Footer</h2>
         <h3>CSS selector:</h3>
         <p>.footer</p>
         <h3>Sample code:</h3>
@@ -229,76 +230,78 @@
             </p>
         </footer>
       </section>
-
+      
+      <section>
+        <h2> Divider Line</h2>
+        <h3> CSS selector:</h3>
+        <p>.divider-line</p>
+        <h3>Sample Code</h3>
+        <code> &lt; div class="divider-line"&amp;gy; &lt;/div&gt;
+        </code>
+        <h3>Rendered Element</h3>
+        <div class="divider-line"></div>
+      </section>
+      
       <section>
         <h2>Product Listing</h2>
         <h3>CSS selector:</h3>
-        <p>.button-nav</p>
+        <p>.product-listing</p>
         <h3>Sample code:</h3>
-        
+        <code> 
+            &lt;div class="product-listing"&gt;<br>
+            &lt;a href="#"&gt; &lt;img src="../imgs/birch.jpg" alt="" class="img-listing"&gt;&lt;/a&gt;<br>
+            &lt;div class="product-listing-text"&gt;
+            &lt; a href="#"&gt;&lt;h3 class="listing-h3"&gt; Maple Daydream&lt;/h3&gt;&lt;/a&gt;<br>
+            &lt;p&gt;&lt;em&gt; Infused Maple Wood&lt;/em&gt;&lt;br&gt;
+            &lt;br&gt;$189 per bundle&lt;/p&gt;<br>
+            &lt;/div&gt;
+        </code>
         <h3>Rendered element:</h3>
         <div class="product-listing">
-            <img src="imgs/productimg.png"  alt="">
-            <h2> Product Name</h2>
-            <h3> Product details and price</h3>
-        </div>
+                    <a href="product.html"><img src="../imgs/aspen.jpg" alt="" class="img-listing"></a>
+                    <div class="product-listing-text">
+                        <a href="product.html"><h3 class="listing-h3">Aspen Sunset</h3></a>
+                        <p><em>Fragrant and pure</em><br><br>$352 per bundle</p>
+                    </div>
+                </div>
       </section>
       
       <section>
-        <h2>Website Grid Structure</h2>
-        
-        <nav class="navbar">
-            <a class="button-nav" href="#">Home Link</a>
-            <div></div>
-            <a class="button-nav" href="#">Link A</a>
-            <a class="button-nav" href="#">Link B</a>
-            <a class="button-nav" href="#">Link C</a>
-        </nav>
-        <div class="flexbox">
-            <div class="product-listing">
-                <img src="imgs/productimg.png"  alt="">
-                <h2> Product Name</h2>
-                <h3> Product details and price</h3>
-            </div> 
-            <div class="product-listing">
-                <img src="imgs/productimg.png" alt="">
-                <h2> Product Name</h2>
-                <h3> Product details and price</h3>
-            </div> 
-            <div class="product-listing">
-                <img src="imgs/productimg.png"  alt="">
-                <h2> Product Name</h2>
-                <h3> Product details and price</h3>
-            </div> 
-        </div>
-        <div class="flexbox">
-            <div class="product-listing">
-                <img src="imgs/productimg.png"  alt="">
-                <h2> Product Name</h2>
-                <h3> Product details and price</h3>
-            </div> 
-            <div class="product-listing">
-                <img src="imgs/productimg.png"  alt="">
-                <h2> Product Name</h2>
-                <h3> Product details and price</h3>
-            </div> 
-            <div class="product-listing">
-                <img src="imgs/productimg.png"  alt="">
-                <h2> Product Name</h2>
-                <h3> Product details and price</h3>
-            </div> 
-        </div>
-      
-          
+          <h2> 2 Column Stripe </h2>
+          <h3> CSS Selector:</h3>
+          <p> stripe-container</p>
+          <h3> Sample Code </h3>
+          <code>
+            &lt;div class="stripe-container"&gt;<br>
+                &lt;div class="stripe-img"&gt;<br>
+                    &lt;img src="../imgs/hamish-thumb.png" alt="" class="img-stripe"&gt;<br>
+                &lt;/div&gt;<br>
+                &lt;div class="stripe-text"&gt;<br>
+                    &lt;h2&gt; About Us &lt;/h2&gt;<br>
+                    &lt;p class="bodycopy"&gt;Hi my name is Hamish Dupree, and I am the founder and craftsman behind North America's only, premium, artisanally-crafted firewood. I grew up around wood growing up - wood burning stove, firewood, fireplaces. It's in my blood.&lt;/p&gt;<br>
+                    &lt;a class="button-main" href="about.html"&gt; READ MORE &lt;/a&gt;<br>
+                &lt;/div&gt;<br>
+            &lt;/div&gt;
+          </code>
+          <h3>Rendered element:</h3>
+              <div class="stripe-container">
+                    <div class="stripe-img">
+                        <img src="../imgs/hamish-thumb.png" alt="" class="img-stripe">
+                    </div>
+                    <div class="stripe-text">
+                        <h2> About Us </h2>
+                        <p class="bodycopy">Hi my name is Hamish Dupree, and I am the founder and craftsman behind North America's only, premium, artisanally-crafted firewood. I grew up around wood growing up - wood burning stove, firewood, fireplaces. It's in my blood.</p>
+                        <a class="button-main" href="about.html"> READ MORE </a>
+                    </div>
+                </div>
       </section>
+      
+      
       
       <section> 
         <h2>Website Colour Swatch</h2>
         <div style="background-color: #64825e; border-width:1px;border-style:solid; width: 30%">
             <p> Faded Moss Green #64825e - Headers, Footers, Banners, Primary brand "color"</p>
-        </div>
-        <div style="background-color: #F5E7BA; border-width:1px;border-style:solid; width: 30%">
-            <p> Sun Faded Yellow #F5E7BA - to signify interactions/buttons</p>
         </div>
         <div style="background-color: #191919; border-width:1px;border-style:solid; width: 30%">
             <p style="color: white"> Charcoal Black #191919 - heading and logo</p>
@@ -307,7 +310,7 @@
             <p style="color: white"> Smoke Grey #4D4D4D - body copy</p>
         </div>
         <div style="background-color:#F0F0F0; border-width:1px;border-style:solid; width: 30%">
-            <p> Vintage White #F0F0F0 - main page background</p>
+            <p> Vintage White #FFFFFF - main page background</p>
         </div>
       </section>      
 
