@@ -98,35 +98,12 @@ label, input{
   margin:4em 0;
 }
 
-.u-list{
-    padding: 1em;
-    margin: .5em 1em;
-    list-style: circle;
-    color: #4D4D4D;
-    font-family: 'Open Sans', sans-serif;
-}
-
-.u-list li{
-    padding: .2em .3em;
-}
-
-.o-list{
-    padding: 1em;
-    margin: .5em 1em;
-    color: #4D4D4D;
-    list-style-type: lower-roman;
-    font-family: 'Open Sans', sans-serif;
-}
-
-.o-list li{
-    padding: .2em .3em;
-}
-
-
 /*
   COMBINED ELEMENTS -------------------
 */
-*, *::after, *::before {}
+*, *::after, *::before {
+    box-sizing: border-box;
+}
 
 section{
   margin: 3% 0 10% 0;
