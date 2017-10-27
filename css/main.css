@@ -1,3 +1,7 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
 .button-main {
     margin: 5% 1em;
     display: inline-block;
@@ -30,56 +34,9 @@
     color: #4D4D4D;
     font-family: 'Open Sans', sans-serif;
 }
-/*
-  COMBINED ELEMENTS -------------------
-*/
-*, *::after, *::before {
-    box-sizing: border-box;
-}
-
-.product-listing{
-    display:flex;
-    flex-direction: column;
-    width: 100%;
-    text-align: center;
-    align-items: center;
-    margin: 0px 1em;
-    padding: 0px 0px 1em 0px;
-}
-
-.product-listing a{
-    text-decoration: none;
-}
-
-.product-listing-text{
-    padding: 0px .8em;
-}
 
 
 
-
-
-
-
-
-
-/* Container for singular item on Product page*/
-.flexbox-container{
-  display: flex;
-  margin: 3% 0;
-}
-
-/* Item for Container for singular item on Product page*/
-.flexbox-item{
-  flex-grow: 1;
-  padding: 1em;
-}
-
-.flexbox-item-confirmation{
-  flex-grow: 1;
-  padding: 1em;
-  float:right;
-}
 
 .herobanner{
     display: -webkit-flex;
@@ -93,11 +50,6 @@
     background-image: url("../imgs/herobanner.jpg");
     background-color: #FFFFFF;
 }
-
-
-
-
-
 
 .divider-line{
     border-style: solid;

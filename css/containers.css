@@ -18,3 +18,47 @@ body{
     text-align: center;
 }
 
+.stripe-container{
+    display: flex;
+    padding: 4em 1em;
+    justify-content: center;
+}
+
+.stripe-text{
+    flex-basis: 40%;
+    text-align: center;
+}
+
+.stripe-img{
+    flex-basis: 60%;
+}
+
+.product-listing{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    margin: 0px 2em;
+    padding: 0px 0px 1em 0px;
+}
+
+.product-listing a{
+    text-decoration: none;
+}
+
+.product-listing-text{
+    padding: 0px .8em;
+}
+
+.default-container{
+  display: flex;
+  margin: 3% 0;
+}
+
+.default-item{
+    flex-grow: 1;
+    padding: 1em;
+    text-align: center;
+  
+}

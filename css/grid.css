@@ -56,17 +56,10 @@
 
 
 /*Container for default div*/
-.default-container{
-  display: flex;
-  margin: 3% 0;
-}
+
 
 /*Item for deafult div*/
-.default-item{
-  flex-grow: 1;
-  padding: 1em;
-  text-align: center;
-}
+
 
 /*Position confirmation div*/
 .flexbox-item-confirmation{
@@ -110,7 +103,7 @@
 @media (min-width: 48.75em) {
   .body-container{
     width: 70%;
-    margin: 5% 15% 5% 15%
+    margin: 0 15% 0 15%;
   }
 
 	.grid-col-1of2 {

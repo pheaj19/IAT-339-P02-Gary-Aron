@@ -7,6 +7,21 @@ img{
     height: auto;
 }
 
+.img-stripe{
+    width: 60%;
+    height: auto; 
+}
+
+.left{
+    display: block;
+    float: left;
+}
+
+.right{
+    display: block;
+    float: right;
+}
+
 .image-gallery img{
   width:15%;
   height:15%;

@@ -33,7 +33,7 @@ p{
 
 .listing-h3{
     font-family: 'Volkhov', sans-serif;
-    font-weight: 100;
+    font-weight: 400;
     font-size: 1.5em;
     text-align: center;
     margin: .5em 0px 0px 0px;
@@ -43,10 +43,6 @@ p{
 .bodycopy{
     font-size: 1.1em;
     line-height: 175%;
-}
-
-.intext-link{
-    color: #64825e;
 }
 
 
