@@ -31,19 +31,24 @@
         <div class="body-container">
             <h1>Form</h1>
             <h2>Personal Information</h2>
-            <div>
-                <form class="form-grid-row">
-                    <div class="form-grid-col-2of3">
-                      <label for="form-name">Name</label>
-                      <input type="text" id="form-name" name="Name" class="textform">
-                      <label for="form-email">Email</label>
-                      <input type="text" id="form-email" name="Email" class="textform">
-                      <div class="form-grid-row form-grid-col-1of3">
-                      <label for="form-phone">Phone Number</label>
-                      <input type="text" id="form-phone" name="Phone" class="textform">
+            <div class="form-grid-row">
+                <form class="form-grid-row form-grid-col-2of3">
+                      <div class="form-grid-row">
+                        <label for="form-name">Name</label>
+                        <input type="text" id="form-name" name="Name" class="textform">
                       </div>
-                      <label for="form-shipping">Shipping Information</label>
-
+                      <div class="form-grid-row">
+                        <label for="form-email">Email</label>
+                        <input type="text" id="form-email" name="Email" class="textform">
+                      </div>
+                      <div class="form-grid-row">
+                      <div class="form-grid-row form-grid-col-1of3">
+                        <label for="form-phone">Phone Number</label>
+                        <input type="text" id="form-phone" name="Phone" class="textform">
+                      </div>
+                      <div class="form-grid-row">
+                        <label for="form-shipping">Shipping Information</label>
+                      </div>
                       <div class="form-grid-row">
                         <div class="form-grid-col-2of3">
                           <input type="text" id="form-shipping" name="shipping-address" class="textform" placeholder="Address">
@@ -64,11 +69,10 @@
                         </div>
                       </div>
 
+
                       <div class="form-grid-row">
                         <label for="form-billing">Billing Information</label>
-                      </div>
-                      <div class="form-grid-row">
-                        <input type="checkbox" name="same-shipping" value="same-shipping"> Same as Shipping Address </input>
+                        <input type="checkbox" name="same-shipping" value="same-shipping"> Same as Shipping Address
                       </div>
                       <div class="form-grid-row">
                         <div class="form-grid-col-2of3">
@@ -89,35 +93,28 @@
                             <input type="text" name="shipping-postal" class="textform" placeholder="Postal Code" >
                         </div>
                       </div>
-                    </div>
                 </form>
             </div>
 
             <h2>Credit Card Information</h2>
-            <div>
-                <form class="form-grid-row">
-                    <div class="form-grid-row">
-                      <div class="form-grid-col-1of3">
+                <form class="formw-grid-row form-grid-col-1of3">
                         <label for="card-name">Card Holder Name</label>
                         <input type="text" id="card-name" name="card-name" class="textform">
                         <label for="card-number">Card Number</label>
                         <input type="text" id="card-number" name="card-number" class="textform">
-                      </div>
-                    </div>
-                    <div class="form-grid-row">
-                      <div class="form-grid-col-1of6">
-                        <label for="card-security">Security Number</label>
+                      <div class="form-grid-col-1of3">
+                        <label for="card-security">CVV/CVC</label>
                         <input type="text" id="card-security" name="card-security" class="textform">
                       </div>
-                      <div class="form-grid-col-1of6">
+                      <div class="form-grid-col-1of3">
                         <label for="card-expire">Expiry Date</label>
                         <input type="text" id="card-expire" name="card-expire" class="textform" placeholder="MM/YY">
                       </div>
                   </div>
                 </form>
-            </div>
-
-            <a class="button-main" href="confirmation.html"> Confirm </a>
+            <div class="form-grid-row">
+              <a class="button-main" href="confirmation.html"> Confirm </a>
+          </div>
         </div>
 
         <footer class="footer">
