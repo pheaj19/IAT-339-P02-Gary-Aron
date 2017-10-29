@@ -11,6 +11,8 @@
     justify-content: space-around;
     box-shadow: 0px 5px 5px #888888;
     z-index: 100;
+    position: fixed;
+    top: 0;
 }
 
 /* spacer-div is for spcaing out home and the rest of the buttons within navbar*/
@@ -41,7 +43,7 @@
 .button-nav {
     display: inline-block;
     padding: 0 0.75em;
-    margin: 1em .8em;
+    margin: 1em 0;
     color: #FFFFFF;
     background-color: #64825e;
     text-decoration: none;
@@ -64,14 +66,18 @@
 	display: none;
 }
 
+.nav-home{
+    margin: 1em 0;
+}
+
 /*MEDIA QUERY for navbar and footer*/ 
 @media (min-width: 40em){
   .button-nav{
-    flex: .2 0.3 7%;
+    flex: .1 0.3 7%;
   }
 
   .nav-home{
-    flex: 0.1 1 24%;
+    flex: 0.1 1 auto;
   }
 
   .spacer-div{
