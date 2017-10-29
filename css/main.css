@@ -7,9 +7,6 @@ section{
     margin: 3em;
 }
 
-select{
-    margin: 0 1em;
-}
 
 /*general setting for buttons and nav-toggle*/
 .button-main, #nav-toggle {
@@ -50,6 +47,10 @@ select{
     background-color: #FFFFFF;
     color: #4D4D4D;
     font-family: 'Open Sans', sans-serif;
+}
+
+select{
+    margin: 0 1em;
 }
 
 /*general setting for herobanner, used for homepage.html*/

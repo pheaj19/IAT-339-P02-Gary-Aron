@@ -36,6 +36,11 @@ img{
     margin:0 0 5% 0;
 }
 
+.img-banner{
+    width: 100%;
+    height: auto;
+}
+
 /*general setting for logo-thumb, used for logo from navbar*/
 .logo-thumb{
     margin: 0.3em 1.55em;
