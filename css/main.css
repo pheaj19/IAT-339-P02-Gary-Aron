@@ -9,7 +9,7 @@ section{
 
 
 /*general setting for buttons and nav-toggle*/
-.button-main, #nav-toggle {
+.button-main{
     margin: 1em 0;
     display: inline-block;
     padding: 0.5em 1.5em;
@@ -24,11 +24,6 @@ section{
     -webkit-transition: background-color 0.5s ease-out;
     transition: background-color 0.5s ease-out;
     font-family: 'Open Sans', sans-serif;
-}
-
-#nav-toggle{
-    display:block;
-    margin: 1em auto;
 }
 
 /*visual update on interaction of button-nav*/

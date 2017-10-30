@@ -78,3 +78,9 @@ img{
     margin: .5em .5em;
   }
 }
+
+@media (max-width: 40em){
+  .logo-thumb{
+    margin: 0.3em 0;
+  }
+}
