@@ -7,6 +7,19 @@ section{
     margin: 3em;
 }
 
+/*general setting for herobanner, used for homepage.html*/
+.herobanner{
+    display: -webkit-flex;
+    display: -ms-flex;
+    display:flex;
+    height: 95vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("../imgs/herobanner.jpg");
+    background-color: #FFFFFF;
+}
 
 /*general setting for buttons and nav-toggle*/
 .button-main{
@@ -44,22 +57,13 @@ section{
     font-family: 'Open Sans', sans-serif;
 }
 
-select{
-    margin: 0 1em;
+/*layout for quntity located in cart.html*/
+.quantity{
+    margin: 1em 0 0em 0;
 }
 
-/*general setting for herobanner, used for homepage.html*/
-.herobanner{
-    display: -webkit-flex;
-    display: -ms-flex;
-    display:flex;
-    height: 95vh;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-image: url("../imgs/herobanner.jpg");
-    background-color: #FFFFFF;
+.quantity select{
+    margin:10% 5%;
 }
 
 /*general setting for divider-line, used for general*/
@@ -69,18 +73,5 @@ select{
     border-color: #64825e;
 }
 
-/*button setting for buttons like CHECKOU and CONFIRM*/
-.checkout{
-  float: right;
-  margin: 1em 0px 1.5em 0px;
-  text-align: center;
-}
 
-/*layout for quntity located in cart.html*/
-.quantity{
-    margin: 15% 0 10% 0;
-}
 
-.quantity select{
-    margin:10% 5%;
-}

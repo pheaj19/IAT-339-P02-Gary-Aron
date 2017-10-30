@@ -2,7 +2,7 @@
 h1{
     font-family: 'Volkhov', sans-serif;
     text-align: center;
-    margin: 2em 0 1em 0;
+    margin: 4em 0 1em 0;
 }
 
 h2{
@@ -57,9 +57,20 @@ a{
     transition: color 0.2s ease-out;
 }
 
-.listing-h3:hover{
+.cart-h3{
+    font-family: 'Volkhov', sans-serif;
+    font-weight: 100;
+    font-size: 1.2em;
+    text-align: center;
+    margin: 1em 0 0 0;
+    color: #191919;
+    transition: color 0.2s ease-out; 
+}
+
+.listing-h3:hover, .cart-h3:hover{
     color: #64825e;
 }
+
 
 /*general setting for bodycopy*/
 .bodycopy{
@@ -69,8 +80,9 @@ a{
 
 /*setting for cartcopy, used for cart.html*/
 .cartcopy{
-    font-size: 1.1em;
-    margin: .5em 0px 0px 0px;
+    font-size: 1.2em;
+    margin: 0;
+    text-align: center;
 }
 
 /*setting for blog header, used for blog.html*/
@@ -86,7 +98,15 @@ a{
     .hero-h2{
         font-size: 1.2em;
     }
+    .cart-h3, .cartcopy{
+        font-size: 1em;
+    }
 }
+@media (max-width: 24em){
+    .cart-h3, .cartcopy{
+        font-size: .8em;
+    }
+})
 
 
 

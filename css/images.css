@@ -18,9 +18,19 @@ img{
 
 /*general setting for img-product, used for homepage*/
 .img-product{
-    width:100%;
+    width:85%;
     height: auto;
-    padding:7%;
+    padding:0;
+    margin-top: 5em;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: #64825e;
+    transition: box-shadow .3s;
+}
+
+.img-product:hover{
+    box-shadow: 0 0 15px rgba(33,33,33,.5);
 }
 
 /*general setting for img-stripe, used for general*/
@@ -32,8 +42,12 @@ img{
 
 /*general setting for img-cart, used for cart.html*/
 .img-cart{
-    width: 100%;
+    width: 50%;
     height: auto;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
+    border-color: #64825e;
 }
 
 /*general setting for img-blog, used for blog.html*/
@@ -41,6 +55,10 @@ img{
     width: 100%;
     height: auto;
     margin:0 0 5% 0;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: #64825e;
 }
 
 .img-banner{
@@ -58,9 +76,17 @@ img{
 
 /*general setting image-gallery images*/
 .image-gallery img{
-  width:25%;
-  height:25%;
-  margin: 1% 2.5%;
+    width:25%;
+    height:25%;
+    margin: 1% 2.5%;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 2px;
+    border-color: #4D4D4D;
+    transition: box-shadow .3s;
+}
+.image-gallery img:hover{
+    box-shadow: 0 0 15px rgba(33,33,33,.5);
 }
 
 /*general setting image-gallery-large images, used for about.html*/
@@ -90,8 +116,12 @@ img{
   .logo-thumb{
     margin: 0.3em 0;
   }
-    .hero-img{
+  .hero-img{
         width: 75%;
         height: auto;
+  }
+  .img-cart{
+    width: 100%;
+    height: auto;
     }
 }

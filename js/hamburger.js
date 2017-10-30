@@ -10,7 +10,7 @@ var navFirstItem = document.querySelector("#navbar a");
 window.addEventListener("resize", function(){
     width = window.innerWidth;
     
-    if(width < 500){
+    if(width < 650){
         console.log("Window width is less than 500px, collapsing menu.");
         navToggle.classList.remove("hidden");
         navToggle.setAttribute("aria-hidden", "false");
