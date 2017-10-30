@@ -28,6 +28,9 @@ a{
 .intext-link{
     color: #64825e;
 }
+.intext-link:hover{
+    text-decoration: underline;
+}
 
 /*header for herobanner*/
 .hero-h1{

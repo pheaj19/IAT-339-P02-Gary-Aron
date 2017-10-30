@@ -38,8 +38,6 @@
     </nav>
     </section>
 
-
-    <!-- INTERACTIVE ELEMENTS SECTION // -->
       <section>
         <h2 id="brand">Brand Story</h2>
         <p class="bodycopy"> Hamish and Co. is an artisanal firewood workshop that specializes in crafting the best firewood on the market for burning or display
@@ -125,28 +123,35 @@
         <h3>Sample code:</h3>
         <code>&lt;h1 class="hero-h1"&gt;Sample Header&lt;/h1&gt;</code>
         <h3>Rendered element:</h3>
-        <h1 class="hero-h1">Sample Header</h1>
+        <h1 class="hero-h1">Hero H1</h1>
         
         <h3>CSS selector:</h3>
         <p>.hero-h2</p>
         <h3>Sample code:</h3>
         <code>&lt;h2 class="hero-h2"&gt;Sample Header&lt;/h2&gt;</code>
         <h3>Rendered element:</h3>
-        <h2 class="hero-h2">Sample Header</h2>
+        <h2 class="hero-h2">Hero H2</h2>
           
         <h3>CSS selector:</h3>
         <p>.listing-h3</p>
         <h3>Sample code:</h3>
         <code>&lt;h3 class="listing-h3"&gt;Sample Header&lt;/h3&gt;</code>
         <h3>Rendered element:</h3>
-        <h3 class="listing-h3">Sample Header</h3>
+        <h3 class="listing-h3">Product Listing Header</h3>
           
         <h3>CSS selector:</h3>
         <p>.blog-h3</p>
         <h3>Sample code:</h3>
         <code>&lt;h3 class="blog-h3"&gt;Sample Header&lt;/h3&gt;</code>
         <h3>Rendered element:</h3>
-        <h3 class="blog-h3">Sample Header</h3>  
+        <h3 class="blog-h3">Blog/Event Header</h3> 
+          
+        <h3>CSS selector:</h3>
+        <p>.cart-h3</p>
+        <h3>Sample code:</h3>
+        <code>&lt;h3 class="cart-h3"&gt;Sample Header&lt;/h3&gt;</code>
+        <h3>Rendered element:</h3>
+        <h3 class="cart-h3">In-Cart Header</h3>   
       </section>
 
       <section>
@@ -179,19 +184,21 @@
         <h3>CSS selector:</h3>
         <p>.navbar</p>
         <h3>Sample code:</h3>
-        <code>&lt;nav class="navbar&gt;<br>
-            &lt;a href="#" class="button-nav"&gt;Default Button&lt;/a&gt;<br>
-            &lt;div&gt;&lt;/div&gt;<br>
-            &lt;a href="#" class="button-nav"&gt;Default Button&lt;/a&gt;<br>
-            &lt;a href="#" class="button-nav"&gt;Default Button&lt;/a&gt;<br>
-            &lt;/nav&gt;
-            
-          
+        <code>
+           &lt;button id="nav-toggle" class="hidden" aria-hidden="true" aria-controls="navbar"&gt; Menu &lt;/button&gt;<br>
+           &lt;nav class="navbar" id="navbar"&gt;<br>
+            &lt;img src="../imgs/logo-thumb.png" alt="Hamish and Co. Logo" class="logo-thumb"&gt;<br>
+            &lt;a class="button-nav nav-home" href="homepage.html#current"&gt;Hamish &amp; Co.&lt;/a&gt;<br>
+            &lt;div class="spacer-div"&gt;&lt;/div&gt;
+            &lt;a class="button-nav" href="about.html"&gt;About&lt;/a&gt;
+            &lt;a class="button-nav" href="blog.html"&gt;Blog&lt;/a&gt;
+            &lt;a class="button-nav" href="cart.html"&gt;Cart&lt;/a&gt;
+        </nav>
         </code>
         <h3>Rendered element:</h3>
-        <nav class="navbar" id="navbar">
-            <img src="imgs/logo-thumb.png" alt="" class="logo-thumb">
-            <a class="button-nav nav-home" href="homepage.html#navbar">Hamish &amp; Co.</a>
+        <nav class="navbar" id="navbar" style="position: relative">
+            <img src="imgs/logo-thumb.png" alt="Hamish and Co. Logo" class="logo-thumb">
+            <a class="button-nav nav-home" href="homepage.html#current">Hamish &amp; Co.</a>
             <div class="spacer-div"></div>
             <a class="button-nav" href="about.html">About</a>
             <a class="button-nav" href="blog.html">Blog</a>
@@ -204,23 +211,26 @@
         <h3>CSS selector:</h3>
         <p>.footer</p>
         <h3>Sample code:</h3>
-        <code>&lt;footer class="footer&gt;<br>
-            &lt;a href="#" class="button-nav"&gt;Default Button&lt;/a&gt;<br>
-            &lt;div&gt;&lt;/div&gt;<br>
-            &lt;a href="#" class="button-nav"&gt;Default Button&lt;/a&gt;<br>
-            &lt;a href="#" class="button-nav"&gt;Default Button&lt;/a&gt;<br>
-            &lt;/footer&gt;
-            
+        <code>
+            &lt;footer class="footer"&gt;
+            &lt;a class="button-nav footer-button" href="../Citations.html"&gt;Citations&lt;/a&gt;
+            &lt;a class="button-nav footer-button" href="../Style_guide.html"&gt;Styleguide&lt;/a&gt;
+            &lt;a class="button-nav footer-button" href="https://github.com/pheaj19/IAT-339-P02-Gary-Aron"&gt;Github Repo&lt;/a&gt;
+            &lt;p&gt; &lt;strong&gt;Hamish and Co Artisanal Firewood&lt;/strong&gt;
+                &lt;br&gt;
+                1234 Fake St, Vancouver, BC, Canada
+                 &lt;br&gt;
+                604-555-1234
+                 &lt;br&gt;
+             &lt;/p&gt;
+        &lt;/footer&gt;
           
         </code>
         <h3>Rendered element:</h3>
         <footer class="footer">
-            <a class="button-nav" href="homepage.html#navbar">Home</a>
-            <a class="button-nav" href="about.html">About</a>
-            <a class="button-nav" href="blog.html">Blog</a>
-            <a class="button-nav" href="../Citations.html">Citations</a>
-            <a class="button-nav" href="../Style_guide.html">Styleguide</a>
-            <a class="button-nav" href="https://github.com/pheaj19/IAT-339-P02-Gary-Aron">Github Repo</a>
+            <a class="button-nav footer-button" href="../Citations.html">Citations</a>
+            <a class="button-nav footer-button" href="../Style_guide.html">Styleguide</a>
+            <a class="button-nav footer-button" href="https://github.com/pheaj19/IAT-339-P02-Gary-Aron">Github Repo</a>
             <p> <strong>Hamish and Co Artisanal Firewood</strong>
                 <br>
                 1234 Fake St, Vancouver, BC, Canada
@@ -257,13 +267,32 @@
             &lt;/div&gt;
         </code>
         <h3>Rendered element:</h3>
-        <div class="product-listing">
-                    <a href="product.html"><img src="imgs/aspen.jpg" alt="" class="img-listing"></a>
+        <div class="default-container">
+
+                <div class="product-listing">
+                    <a href="product.html"><img src="imgs/birch.jpg" alt="Infused Maple Wood" class="img-listing"></a>
+                    <div class="product-listing-text">
+                        <a href="product.html"><h3 class="listing-h3">Maple Daydream</h3></a>
+                        <p><em>Infused Maple Wood</em><br><br>$189 per bundle</p>
+                    </div>
+                </div>
+
+                <div class="product-listing">
+                    <a href="product.html"><img src="imgs/aspen.jpg" alt="Aspent Sunset" class="img-listing"></a>
                     <div class="product-listing-text">
                         <a href="product.html"><h3 class="listing-h3">Aspen Sunset</h3></a>
                         <p><em>Fragrant and pure</em><br><br>$352 per bundle</p>
                     </div>
                 </div>
+
+                <div class="product-listing">
+                    <a href="product.html"><img src="imgs/oak.JPG" alt="Oak Tranquility" class="img-listing"></a>
+                    <div class="product-listing-text">
+                        <a href="product.html"><h3 class="listing-h3">Oak Tranquility</h3></a>
+                        <p><em>Our best-selling classic</em><br><br>$200 per bundle</p>
+                    </div>
+                </div>
+            </div>
       </section>
       
       <section>
@@ -302,40 +331,51 @@
           <p> stripe-container</p>
           <h3> Sample Code </h3>
           <code>
-            &lt;div class="stripe-container"&gt;<br>
-                &lt;div class="cart-img"&gt;<br>
-                    &lt;img src="../imgs/birch.jpg" class="img-cart left"&gt;<br>
-                &lt;/div&gt;
-
-                &lt;div class="cart-header" href="product.html"&gt;<br>
-                    &lt;a href="product.html"&gt;&lt;h3 class="listing-h3"&gt;Oak Tranquility&lt;/h3&gt;&lt;/a&gt;<br>
-                &lt;/div&gt;<br>
-                &lt;div class="cart-text" href="product.html"&gt;<br>
-                    &lt;p class="cartcopy"&gt; Quantity: &lt;strong&gt;1&lt;/strong&gt; &lt;/p&gt;<br>
-                &lt;/div&gt;<br>
-                &lt;div class="cart-text"&gt;<br>
-                    &lt;p class="cartcopy"&gt; Total: &lt;strong&gt;$200&lt;/strong&gt; &lt;/p&gt;<br>
-                &lt;/div&gt;<br>
-
-            &lt;/div&gt;
+           &gt;div class="stripe-container-cart-item"&lt;
+                &gt;div class="cart-img"&lt;
+                    &gt;img src="imgs/birch.jpg" class="img-cart" alt="Maple Daydream"&lt;
+                    &gt;a href="product.html"&lt;&gt;h3 class="cart-h3"&lt;Maple Daydream&gt;/h3&lt;&gt;/a&lt;
+                &gt;/div&lt;
+                &gt;div class="cart-spacer"&lt;&gt;/div&lt;
+                &gt;div class="cart-text"&lt;
+                    &gt;p class="cartcopy"&lt;&gt;strong&lt;2&gt;/strong&lt; &gt;/p&lt;
+                &gt;/div&lt;
+                &gt;div class="cart-text"&lt;
+                    &gt;p class="cartcopy"&lt;&gt;strong&lt;$378&gt;/strong&lt; &gt;/p&lt;
+                &gt;/div&lt;
+            &gt;/div&lt;
           </code>
-          <h3>Rendered element:</h3>
-              <div class="stripe-container">
+          <h3>Rendered element:</h3>>
+            <div class="stripe-container-cart-header">
                 <div class="cart-img">
-                    <img src="imgs/birch.jpg" class="img-cart" alt="">
+                     <h3 class="cart-h3">Product</h3>
                 </div>
-
-                <div class="cart-header">
-                    <a href="product.html"><h3 class="listing-h3">Oak Tranquility</h3></a>
+                <div class="cart-spacer">
                 </div>
                 <div class="cart-text">
-                    <p class="cartcopy"> Quantity: <strong>1</strong> </p>
+                    <h3 class="cart-h3">Quantity</h3>
                 </div>
                 <div class="cart-text">
-                    <p class="cartcopy"> Total: <strong>$200</strong> </p>
+                    <h3 class="cart-h3">Price</h3>
                 </div>
-
             </div>
+            <div class="divider-line"></div>
+            
+            <div class="stripe-container-cart-item">
+                <div class="cart-img">
+                    <img src="imgs/birch.jpg" class="img-cart" alt="Maple Daydream">
+                    <a href="product.html"><h3 class="cart-h3">Maple Daydream</h3></a>
+                </div>
+                <div class="cart-spacer"></div>
+                <div class="cart-text">
+                    <p class="cartcopy"><strong>2</strong> </p>
+                </div>
+                <div class="cart-text">
+                    <p class="cartcopy"><strong>$378</strong> </p>
+                </div>
+            </div>
+
+            <div class="divider-line"></div>
       </section>
       
       
