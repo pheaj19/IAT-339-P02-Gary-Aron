@@ -21,6 +21,15 @@ section{
     background-color: #FFFFFF;
 }
 
+.page-fill{
+    height: 90vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 /*general setting for buttons and nav-toggle*/
 .button-main{
     margin: 1em 0;
